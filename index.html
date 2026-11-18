@@ -1,0 +1,2899 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>一座恭王府，半部清朝史｜北京恭王府歷史沿革與「南張北溥」百年交會數位特展</title>
+  <meta name="description" content="北京恭王府16幅現場實拍精校圖志，深入導覽和珅延禧堂、慶親王永璘、恭親王奕訢辛酉政變與洋務中樞、清代宗室十二等爵位，以及張大千與溥心畬在萃錦園寒玉堂的百年交會與《連理雙鴿》特展。" />
+  <link rel="canonical" href="https://agneschaorl-stack.github.io/prince-gong-mansion/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta property="og:site_name" content="北京恭王府 · 歷史與翰墨數位特展" />
+  <meta property="og:url" content="https://agneschaorl-stack.github.io/prince-gong-mansion/" />
+  <meta property="og:title" content="一座恭王府，半部清朝史｜北京恭王府與「南張北溥」百年交會特展" />
+  <meta property="og:description" content="橫跨清朝七代帝王的王府歷史沿革、清代宗室十二等爵位探索、萃錦園獨樂峰奇觀，以及1926–2026張大千與溥心畬樂道堂百年特展16幅現場實拍全覽。" />
+  <meta property="og:image" content="https://agneschaorl-stack.github.io/prince-gong-mansion/og-preview.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="一座恭王府，半部清朝史｜北京恭王府與「南張北溥」百年交會特展" />
+  <meta name="twitter:description" content="從和珅錫晉齋、恭親王奕訢洋務中樞到萃錦園寒玉堂張大千與溥心畬百年交會，收錄16幅現場實拍精校影像。" />
+  <meta name="twitter:image" content="https://agneschaorl-stack.github.io/prince-gong-mansion/og-preview.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --crimson: #7b1e1e;
+      --crimson-dark: #4e1010;
+      --crimson-light: #a63232;
+      --jade: #1b5e49;
+      --jade-dark: #0f3b2d;
+      --jade-light: #2d7d63;
+      --gold: #c59b49;
+      --gold-light: #e5c985;
+      --gold-pale: #f5ebd1;
+      --paper: #f6f1e6;
+      --paper-card: #fdfbf6;
+      --paper-deep: #ece3d0;
+      --ink: #1e1b18;
+      --ink-secondary: #4a433b;
+      --ink-muted: #786e62;
+      --border-gold: rgba(197, 155, 73, 0.38);
+      --shadow-soft: 0 12px 34px rgba(30, 27, 24, 0.09);
+      --shadow-hover: 0 18px 44px rgba(123, 30, 30, 0.16);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 175px;
+    }
+
+    #top,
+    #history-status,
+    #eras-timeline,
+    #qing-peerage,
+    #nanzhang-beipu,
+    #photo-archive {
+      scroll-margin-top: 175px;
+    }
+
+    body {
+      background-color: var(--paper);
+      background-image:
+        radial-gradient(circle at 15% 15%, rgba(197, 155, 73, 0.08) 0%, transparent 45%),
+        radial-gradient(circle at 85% 80%, rgba(27, 94, 73, 0.07) 0%, transparent 45%);
+      color: var(--ink);
+      font-family: "Noto Serif SC", "Songti SC", "PMingLiU", serif;
+      line-height: 1.8;
+      overflow-x: hidden;
+    }
+
+    /* Traditional Chinese Lattice Border Pattern */
+    .lattice-divider {
+      height: 18px;
+      background-image: repeating-linear-gradient(
+        90deg,
+        var(--gold) 0px,
+        var(--gold) 12px,
+        transparent 12px,
+        transparent 18px,
+        var(--crimson) 18px,
+        var(--crimson) 24px,
+        transparent 24px,
+        transparent 30px
+      );
+      opacity: 0.35;
+      margin: 0 auto;
+    }
+
+    /* Sticky Top Navigation */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(26, 23, 20, 0.96);
+      backdrop-filter: blur(12px);
+      border-bottom: 2px solid var(--gold);
+      padding: 10px 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+    }
+
+    .nav-container {
+      max-width: 1320px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .nav-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--gold-light);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.08rem;
+      letter-spacing: 0.06em;
+    }
+
+    .seal-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      background: var(--crimson);
+      color: #fff;
+      border: 1.5px solid #e8c78e;
+      font-size: 0.82rem;
+      font-weight: 900;
+      border-radius: 3px;
+      box-shadow: inset 0 0 0 2px var(--crimson), inset 0 0 0 3px rgba(255,255,255,0.4);
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .nav-links {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+      list-style: none;
+      padding-top: 8px;
+      border-top: 1px solid rgba(197, 155, 73, 0.28);
+      width: 100%;
+    }
+
+    @media (max-width: 860px) {
+      .nav-links {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 520px) {
+      .nav-links {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .nav-links li {
+      display: flex;
+    }
+
+    .nav-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      color: #f0e8d8;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(197, 155, 73, 0.42);
+      text-decoration: none;
+      padding: 7px 10px;
+      font-size: 0.86rem;
+      border-radius: 4px;
+      transition: all 0.22s ease;
+      white-space: nowrap;
+      font-family: "Noto Sans SC", sans-serif;
+    }
+
+    .nav-links a:hover {
+      color: #1e1b18;
+      background: var(--gold-light);
+      border-color: var(--gold-light);
+      font-weight: 600;
+    }
+
+    .lang-switch-top {
+      background: rgba(123, 30, 30, 0.85);
+      border: 1px solid var(--gold-light);
+      color: #fff;
+      padding: 5px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.82rem;
+      font-weight: 600;
+      font-family: "Noto Sans SC", sans-serif;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .lang-switch-top:hover {
+      background: var(--gold);
+      color: var(--ink);
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background:
+        linear-gradient(180deg, rgba(22, 18, 16, 0.82) 0%, rgba(44, 18, 18, 0.86) 55%, rgba(24, 48, 40, 0.92) 100%),
+        url('images/IMG_8693.jpeg') center/cover no-repeat;
+      color: #fdfaf2;
+      padding: 96px 24px 84px;
+      text-align: center;
+      border-bottom: 5px solid var(--gold);
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 18px;
+      border: 1px solid rgba(229, 201, 133, 0.32);
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      max-width: 1060px;
+      margin: 0 auto;
+      z-index: 2;
+    }
+
+    .hero-subtitle-top {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 6px 20px;
+      background: rgba(123, 30, 30, 0.78);
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      font-size: 0.92rem;
+      letter-spacing: 0.18em;
+      border-radius: 2px;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.85rem);
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 4px 24px rgba(0, 0, 0, 0.55);
+      margin-bottom: 18px;
+    }
+
+    .hero h1 span.gold-accent {
+      color: var(--gold-light);
+    }
+
+    .hero-lead {
+      font-size: clamp(1.05rem, 2vw, 1.26rem);
+      color: #ebe2d2;
+      max-width: 860px;
+      margin: 0 auto 36px;
+      line-height: 1.95;
+      font-weight: 400;
+    }
+
+    .hero-seals {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 44px;
+    }
+
+    .stamp-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 18px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(229, 201, 133, 0.45);
+      border-radius: 4px;
+      color: var(--gold-pale);
+      font-size: 0.92rem;
+      letter-spacing: 0.06em;
+    }
+
+    .stamp-chip strong {
+      color: #ff6b6b;
+      background: rgba(123, 30, 30, 0.85);
+      padding: 2px 7px;
+      border-radius: 2px;
+      border: 1px solid rgba(255, 180, 180, 0.4);
+      font-size: 0.8rem;
+    }
+
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+      gap: 16px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .stat-box {
+      background: rgba(20, 18, 16, 0.68);
+      border: 1px solid rgba(197, 155, 73, 0.45);
+      padding: 18px 14px;
+      border-radius: 6px;
+      backdrop-filter: blur(6px);
+    }
+
+    .stat-num {
+      font-size: 1.85rem;
+      font-weight: 900;
+      color: var(--gold-light);
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+
+    .stat-label {
+      font-size: 0.86rem;
+      color: #d7ccb8;
+      font-family: "Noto Sans SC", sans-serif;
+    }
+
+    /* Section Containers */
+    .section {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 76px 24px;
+    }
+
+    .section-alt {
+      background: linear-gradient(180deg, rgba(236, 227, 208, 0.55) 0%, rgba(246, 241, 230, 0.9) 100%);
+      border-top: 1px solid var(--border-gold);
+      border-bottom: 1px solid var(--border-gold);
+    }
+
+    .section-dark {
+      background: linear-gradient(135deg, #1b2420 0%, #152e26 55%, #231816 100%);
+      color: #f4eee1;
+      border-top: 4px solid var(--gold);
+      border-bottom: 4px solid var(--gold);
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 880px;
+      margin: 0 auto 52px;
+    }
+
+    .section-kicker {
+      display: inline-block;
+      font-family: "Noto Sans SC", sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      color: var(--crimson);
+      background: rgba(123, 30, 30, 0.09);
+      border: 1px solid rgba(123, 30, 30, 0.28);
+      padding: 4px 16px;
+      border-radius: 2px;
+      margin-bottom: 14px;
+    }
+
+    .section-dark .section-kicker {
+      color: var(--gold-light);
+      background: rgba(197, 155, 73, 0.16);
+      border-color: var(--gold);
+    }
+
+    .section-title {
+      font-size: clamp(1.85rem, 3.4vw, 2.65rem);
+      font-weight: 900;
+      letter-spacing: 0.06em;
+      color: var(--ink);
+      margin-bottom: 16px;
+      position: relative;
+    }
+
+    .section-dark .section-title {
+      color: #fff;
+    }
+
+    .section-desc {
+      font-size: 1.06rem;
+      color: var(--ink-secondary);
+      line-height: 1.9;
+    }
+
+    .section-dark .section-desc {
+      color: #d6cbb8;
+    }
+
+    /* Historical Importance Pillars */
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin-bottom: 56px;
+    }
+
+    .pillar-card {
+      background: var(--paper-card);
+      border: 1px solid var(--border-gold);
+      border-top: 4px solid var(--crimson);
+      border-radius: 6px;
+      padding: 28px 24px;
+      box-shadow: var(--shadow-soft);
+      position: relative;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .pillar-card:nth-child(2) {
+      border-top-color: var(--jade);
+    }
+
+    .pillar-card:nth-child(3) {
+      border-top-color: var(--gold);
+    }
+
+    .pillar-card:nth-child(4) {
+      border-top-color: #3a4f66;
+    }
+
+    .pillar-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .pillar-index {
+      font-size: 0.82rem;
+      font-family: "Noto Sans SC", sans-serif;
+      color: var(--crimson);
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      margin-bottom: 8px;
+    }
+
+    .pillar-card h3 {
+      font-size: 1.32rem;
+      margin-bottom: 12px;
+      color: var(--ink);
+    }
+
+    .pillar-card p {
+      font-size: 0.96rem;
+      color: var(--ink-secondary);
+      line-height: 1.82;
+    }
+
+    /* Interactive Era Tabs & Timeline */
+    .era-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 32px;
+    }
+
+    .era-tab-btn {
+      background: var(--paper-card);
+      border: 1.5px solid var(--border-gold);
+      color: var(--ink-secondary);
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: "Noto Serif SC", serif;
+      font-size: 0.96rem;
+      font-weight: 700;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 165px;
+    }
+
+    .era-tab-btn span.era-years {
+      font-size: 0.78rem;
+      font-family: "Noto Sans SC", sans-serif;
+      font-weight: 400;
+      color: var(--ink-muted);
+      margin-top: 2px;
+    }
+
+    .era-tab-btn.active,
+    .era-tab-btn:hover {
+      background: var(--crimson);
+      border-color: var(--crimson-dark);
+      color: #fff;
+      box-shadow: 0 8px 20px rgba(123, 30, 30, 0.25);
+    }
+
+    .era-tab-btn.active span.era-years,
+    .era-tab-btn:hover span.era-years {
+      color: var(--gold-pale);
+    }
+
+    .era-detail-card {
+      background: var(--paper-card);
+      border: 2px solid var(--gold);
+      border-radius: 10px;
+      padding: 36px;
+      box-shadow: var(--shadow-soft);
+      display: none;
+      animation: fadeIn 0.35s ease;
+    }
+
+    .era-detail-card.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .era-grid {
+      display: grid;
+      grid-template-columns: 1.45fr 1fr;
+      gap: 36px;
+      align-items: start;
+    }
+
+    @media (max-width: 920px) {
+      .era-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .era-badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .era-tag {
+      background: rgba(123, 30, 30, 0.1);
+      color: var(--crimson);
+      border: 1px solid rgba(123, 30, 30, 0.25);
+      padding: 3px 12px;
+      font-size: 0.84rem;
+      border-radius: 3px;
+      font-family: "Noto Sans SC", sans-serif;
+      font-weight: 600;
+    }
+
+    .era-tag.jade {
+      background: rgba(27, 94, 73, 0.1);
+      color: var(--jade);
+      border-color: rgba(27, 94, 73, 0.28);
+    }
+
+    .era-title {
+      font-size: 1.75rem;
+      color: var(--ink);
+      margin-bottom: 16px;
+      line-height: 1.35;
+    }
+
+    .era-story-list {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .era-story-item {
+      background: var(--paper);
+      border-left: 4px solid var(--crimson);
+      padding: 16px 20px;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .era-story-item h4 {
+      font-size: 1.08rem;
+      color: var(--crimson-dark);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .era-story-item h4 span.story-date {
+      font-size: 0.82rem;
+      font-family: "Noto Sans SC", sans-serif;
+      background: var(--gold-pale);
+      color: var(--ink);
+      padding: 2px 9px;
+      border-radius: 3px;
+      border: 1px solid var(--border-gold);
+    }
+
+    .era-figure-box {
+      background: linear-gradient(180deg, #faf5e8 0%, #f1e7d0 100%);
+      border: 1px solid var(--border-gold);
+      border-radius: 8px;
+      padding: 24px;
+    }
+
+    .figure-portrait-wrap {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 18px;
+      padding-bottom: 18px;
+      border-bottom: 1px dashed var(--border-gold);
+    }
+
+    .figure-avatar {
+      width: 88px;
+      height: 108px;
+      border-radius: 6px;
+      border: 2px solid var(--gold);
+      object-fit: cover;
+      background: #2c2520;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .figure-meta h4 {
+      font-size: 1.2rem;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+
+    .figure-meta .figure-role {
+      font-size: 0.86rem;
+      color: var(--crimson);
+      font-family: "Noto Sans SC", sans-serif;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .figure-meta p {
+      font-size: 0.88rem;
+      color: var(--ink-secondary);
+      line-height: 1.6;
+    }
+
+    /* Qing Peerage 12-Rank Interactive Table */
+    .peerage-layout {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 32px;
+      align-items: start;
+    }
+
+    @media (max-width: 980px) {
+      .peerage-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .peerage-table-wrap {
+      background: var(--paper-card);
+      border: 2px solid var(--gold);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .peerage-table-header {
+      background: var(--crimson-dark);
+      color: var(--gold-light);
+      padding: 16px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .peerage-filter-btns {
+      display: flex;
+      gap: 6px;
+    }
+
+    .peerage-filter-btn {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(229, 201, 133, 0.4);
+      color: #fff;
+      padding: 4px 10px;
+      font-size: 0.8rem;
+      border-radius: 3px;
+      cursor: pointer;
+      font-family: "Noto Sans SC", sans-serif;
+    }
+
+    .peerage-filter-btn.active {
+      background: var(--gold);
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    table.peerage-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.93rem;
+    }
+
+    table.peerage-table th {
+      background: #efe5cf;
+      color: var(--ink);
+      text-align: left;
+      padding: 12px 16px;
+      border-bottom: 2px solid var(--border-gold);
+      font-weight: 700;
+    }
+
+    table.peerage-table td {
+      padding: 11px 16px;
+      border-bottom: 1px solid rgba(197, 155, 73, 0.25);
+      color: var(--ink-secondary);
+    }
+
+    table.peerage-table tr:hover {
+      background: rgba(197, 155, 73, 0.12);
+    }
+
+    .iron-cap-badge {
+      display: inline-block;
+      background: var(--crimson);
+      color: #fff;
+      font-size: 0.76rem;
+      padding: 2px 8px;
+      border-radius: 3px;
+      font-family: "Noto Sans SC", sans-serif;
+      margin-left: 6px;
+    }
+
+    /* Nan Zhang Bei Pu Section */
+    .art-feature-banner {
+      background: linear-gradient(135deg, rgba(27, 94, 73, 0.35) 0%, rgba(15, 34, 28, 0.85) 100%);
+      border: 1px solid var(--gold);
+      border-radius: 10px;
+      padding: 36px;
+      margin-bottom: 44px;
+      position: relative;
+    }
+
+    .art-masters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 28px;
+      margin-bottom: 48px;
+    }
+
+    .master-card {
+      background: rgba(255, 252, 245, 0.06);
+      border: 1px solid rgba(229, 201, 133, 0.4);
+      border-radius: 8px;
+      padding: 30px;
+      backdrop-filter: blur(8px);
+    }
+
+    .master-header {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid rgba(229, 201, 133, 0.25);
+    }
+
+    .master-seal {
+      width: 68px;
+      height: 68px;
+      background: var(--crimson);
+      border: 2px solid var(--gold-light);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 1.35rem;
+      color: #fff;
+      line-height: 1.15;
+      text-align: center;
+      padding: 6px;
+      flex-shrink: 0;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+    }
+
+    .master-title h3 {
+      font-size: 1.5rem;
+      color: var(--gold-light);
+      margin-bottom: 4px;
+    }
+
+    .master-title p {
+      font-size: 0.88rem;
+      color: #c8beac;
+      font-family: "Noto Sans SC", sans-serif;
+    }
+
+    .anecdotes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      margin-top: 36px;
+    }
+
+    .anecdote-card {
+      background: rgba(253, 251, 246, 0.96);
+      color: var(--ink);
+      border: 2px solid var(--gold);
+      border-radius: 8px;
+      padding: 26px;
+      box-shadow: 0 10px 28px rgba(0,0,0,0.22);
+    }
+
+    .anecdote-card .anecdote-num {
+      display: inline-block;
+      background: var(--jade);
+      color: #fff;
+      font-size: 0.78rem;
+      font-family: "Noto Sans SC", sans-serif;
+      padding: 3px 10px;
+      border-radius: 3px;
+      margin-bottom: 10px;
+    }
+
+    .anecdote-card h4 {
+      font-size: 1.24rem;
+      color: var(--crimson-dark);
+      margin-bottom: 10px;
+    }
+
+    .anecdote-card p {
+      font-size: 0.95rem;
+      color: var(--ink-secondary);
+      line-height: 1.82;
+    }
+
+    .menu-box {
+      margin-top: 12px;
+      background: #f4ebd9;
+      border: 1px dashed var(--crimson);
+      padding: 12px 16px;
+      border-radius: 4px;
+      font-size: 0.88rem;
+      color: var(--ink);
+    }
+
+    /* Masterpiece Spotlight: Twin Doves & Flying Kites */
+    .painting-showcase {
+      background: #fdfaf2;
+      color: var(--ink);
+      border: 3px solid var(--gold);
+      border-radius: 10px;
+      overflow: hidden;
+      margin-top: 48px;
+      box-shadow: 0 16px 42px rgba(0,0,0,0.3);
+    }
+
+    .painting-showcase-grid {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+    }
+
+    @media (max-width: 960px) {
+      .painting-showcase-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .painting-img-stage {
+      background: radial-gradient(circle at center, #2b2621 0%, #171412 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 28px;
+      position: relative;
+    }
+
+    .crop-viewport {
+      position: relative;
+      overflow: hidden;
+      border-radius: 4px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+      border: 3px solid #d5be8c;
+      background: #f5efe2;
+      cursor: zoom-in;
+    }
+
+    .crop-viewport img {
+      position: absolute !important;
+      max-width: none !important;
+      max-height: none !important;
+      object-fit: fill !important;
+      border: none !important;
+      border-radius: 0 !important;
+      padding: 0 !important;
+      image-orientation: from-image !important;
+      filter: contrast(1.09) brightness(1.02) saturate(1.06);
+      transform-origin: center center;
+      transition: filter 0.25s ease;
+    }
+
+    .crop-viewport:hover img {
+      filter: contrast(1.13) brightness(1.04) saturate(1.08);
+    }
+
+    .painting-info-stage {
+      padding: 36px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .poem-blockquote {
+      background: #f4ecda;
+      border-left: 4px solid var(--crimson);
+      padding: 18px 22px;
+      margin: 18px 0;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--crimson-dark);
+      letter-spacing: 0.06em;
+      line-height: 1.9;
+    }
+
+    /* Photo Archive Gallery (All 16 User Photos) */
+    .gallery-controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 36px;
+    }
+
+    .filter-btn {
+      background: var(--paper-card);
+      border: 1.5px solid var(--border-gold);
+      color: var(--ink-secondary);
+      padding: 9px 20px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-family: "Noto Sans SC", sans-serif;
+      font-size: 0.92rem;
+      font-weight: 500;
+      transition: all 0.22s ease;
+    }
+
+    .filter-btn.active,
+    .filter-btn:hover {
+      background: var(--jade);
+      border-color: var(--jade-dark);
+      color: #fff;
+      box-shadow: 0 6px 16px rgba(27, 94, 73, 0.25);
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 28px;
+    }
+
+    @media (max-width: 480px) {
+      .photo-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .photo-card {
+      background: var(--paper-card);
+      border: 1px solid var(--border-gold);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .photo-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .photo-thumb-wrap {
+      position: relative;
+      height: 370px;
+      background: radial-gradient(circle at center, #2a2520 0%, #161412 100%);
+      overflow: hidden;
+      cursor: zoom-in;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px;
+    }
+
+    .photo-thumb-wrap > img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      image-orientation: from-image;
+      filter: contrast(1.09) brightness(1.02) saturate(1.06);
+      transition: transform 0.35s ease;
+    }
+
+    .photo-file-tag {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(20, 18, 16, 0.82);
+      color: var(--gold-light);
+      border: 1px solid rgba(197, 155, 73, 0.5);
+      padding: 3px 10px;
+      font-size: 0.76rem;
+      font-family: monospace;
+      border-radius: 4px;
+      backdrop-filter: blur(4px);
+    }
+
+    .photo-cat-tag {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: var(--crimson);
+      color: #fff;
+      padding: 3px 11px;
+      font-size: 0.78rem;
+      font-family: "Noto Sans SC", sans-serif;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .photo-zoom-hint {
+      position: absolute;
+      bottom: 10px;
+      right: 12px;
+      background: rgba(0, 0, 0, 0.68);
+      color: #fff;
+      font-size: 0.76rem;
+      padding: 3px 10px;
+      border-radius: 4px;
+      font-family: "Noto Sans SC", sans-serif;
+    }
+
+    .photo-body {
+      padding: 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .photo-title {
+      font-size: 1.26rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+
+    .photo-narrative {
+      font-size: 0.95rem;
+      color: var(--ink-secondary);
+      line-height: 1.82;
+      margin-bottom: 16px;
+    }
+
+    .photo-transcription {
+      margin-top: auto;
+      background: #f3ebda;
+      border: 1px solid rgba(197, 155, 73, 0.45);
+      border-radius: 6px;
+      padding: 12px 15px;
+      font-size: 0.86rem;
+      color: var(--ink-secondary);
+    }
+
+    .photo-transcription summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--crimson-dark);
+      font-family: "Noto Sans SC", sans-serif;
+      user-select: none;
+    }
+
+    .photo-transcription p {
+      margin-top: 8px;
+      line-height: 1.75;
+      white-space: pre-line;
+    }
+
+    /* Lightbox Modal */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(12, 10, 9, 0.94);
+      z-index: 2000;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .lightbox.open {
+      display: flex;
+    }
+
+    .lightbox-toolbar {
+      position: absolute;
+      top: 20px;
+      right: 24px;
+      display: flex;
+      gap: 10px;
+      z-index: 2010;
+    }
+
+    .lb-btn {
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid var(--gold);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: "Noto Sans SC", sans-serif;
+      font-size: 0.88rem;
+      transition: background 0.2s;
+    }
+
+    .lb-btn:hover {
+      background: var(--crimson);
+    }
+
+    .lightbox-img-container {
+      max-width: 92vw;
+      max-height: 76vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lightbox-img-container img {
+      max-width: 90vw;
+      max-height: 74vh;
+      object-fit: contain;
+      border: 2px solid var(--gold);
+      border-radius: 4px;
+      transition: transform 0.25s ease;
+    }
+
+    .lightbox-caption {
+      max-width: 820px;
+      text-align: center;
+      color: #f0e6d2;
+      margin-top: 18px;
+    }
+
+    .lightbox-caption h4 {
+      color: var(--gold-light);
+      font-size: 1.2rem;
+      margin-bottom: 6px;
+    }
+
+    .lightbox-caption p {
+      font-size: 0.92rem;
+      color: #ccc2b0;
+    }
+
+    /* Footer */
+    footer {
+      background: #141210;
+      color: #b8ae9e;
+      padding: 56px 24px;
+      text-align: center;
+      border-top: 3px solid var(--gold);
+      font-size: 0.92rem;
+    }
+
+    footer .footer-quote {
+      font-size: 1.35rem;
+      color: var(--gold-light);
+      margin-bottom: 14px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-top-row">
+        <a href="#top" class="nav-brand">
+          <span class="seal-badge">恭府</span>
+          <span>北京恭王府 · 歷史與翰墨數位特展</span>
+        </a>
+        <button class="lang-switch-top" id="langToggleBtn" onclick="toggleCharScript()">切換：繁體 / 簡體</button>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#history-status">① 歷史地位與沿革</a></li>
+        <li><a href="#eras-timeline">② 七朝風雲故事</a></li>
+        <li><a href="#qing-peerage">③ 清代封爵與王府版圖</a></li>
+        <li><a href="#nanzhang-beipu">④ 南張北溥 · 百年重逢</a></li>
+        <li><a href="#photo-archive">⑤ 16幅現場實拍全覽</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-subtitle-top">
+        <span>乾隆四十一年（1776）始建</span>
+        <span>·</span>
+        <span>什剎海前海西岸</span>
+        <span>·</span>
+        <span>1926—2026 溥心畬張大千會面百年</span>
+      </div>
+      <h1>一座恭王府，<span class="gold-accent">半部清朝史</span><br>從和珅金殿、恭王中樞到「南張北溥」百年翰墨</h1>
+      <p class="hero-lead">
+        坐落於北京什剎海北岸柳蔭深處的恭王府，歷經乾隆、嘉慶、道光、咸豐、同治、光緒、宣統七代帝王更迭。
+        它曾是權臣<strong>和珅</strong>僭越營建的「延禧堂」與「錫晉齋」，亦曾是嘉慶胞弟<strong>慶親王永璘</strong>夢寐以求的賜第，
+        更是晚清議政王<strong>恭親王奕訢</strong>運籌辛酉政變、開啟洋務運動的帝國第二中樞。
+        當清室落幕，恭親王次孫「舊王孫」<strong>溥心畬</strong>居於後花園<strong>萃錦園寒玉堂</strong>，與自南方北上的<strong>張大千</strong>在此訂交揮毫，
+        成就中國近現代美術史「南張北溥」的雙峰傳奇。
+      </p>
+      <div class="hero-seals">
+        <div class="stamp-chip"><strong>第一代</strong> 乾隆寵臣 · 和珅宅第（1776–1799）</div>
+        <div class="stamp-chip"><strong>第二代</strong> 慶僖親王 · 永璘王府（1799–1850）</div>
+        <div class="stamp-chip"><strong>第三代</strong> 議政恭親王 · 奕訢中樞（1850–1898）</div>
+        <div class="stamp-chip"><strong>藝壇雙璧</strong> 萃錦園寒玉堂 · 張大千與溥心畬（1926–2026百年特展）</div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-box">
+          <div class="stat-num">1776 年</div>
+          <div class="stat-label">乾隆四十一年始建 · 逾250年滄桑</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">60,000 ㎡</div>
+          <div class="stat-label">府邸 3.2萬㎡ · 萃錦園 2.8萬㎡</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">9,999 + 1</div>
+          <div class="stat-label">萬福（蝠）園林與康熙御筆福字碑</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">100 週年</div>
+          <div class="stat-label">1926–2026 溥心畬張大千會面百年特展</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">16 幅</div>
+          <div class="stat-label">現場實拍檔案深度考據與原碑釋文</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="lattice-divider"></div>
+
+  <!-- SECTION 1: Historical Status & Significance in the Qing Dynasty -->
+  <section class="section" id="history-status">
+    <div class="section-header">
+      <span class="section-kicker">HISTORICAL SIGNIFICANCE · 滿清王朝的歷史縮影</span>
+      <h2 class="section-title">為何歷史學家侯仁之盛讚：「一座恭王府，半部清朝史」？</h2>
+      <p class="section-desc">
+        在清代北京數十座親王、郡王府邸之中，恭王府不僅是唯一完整保存至今的清代王府建築群（含府邸與大型後花園），
+        更因它的歷代主人皆處於大清帝國盛衰轉折的風暴中心，使其一磚一瓦都成為解讀清代政治、宗法、外交與文化轉型的活化石。
+      </p>
+    </div>
+
+    <div class="pillars-grid">
+      <div class="pillar-card">
+        <div class="pillar-index">歷史地位 01 · 盛衰轉折的權力劇場</div>
+        <h3>橫跨七朝帝王，見證由盛轉衰</h3>
+        <p>
+          清朝共十二帝（入關後十帝），恭王府自乾隆四十一年（1776）動工，親歷<strong>乾隆盛世之極奢、嘉慶親政之整肅、道光國勢之漸衰、咸同之交的內憂外患、同光洋務中興，直至宣統遜位</strong>。從「和珅跌倒，嘉慶吃飽」的抄家大案，到1861年改變晚清國運的「辛酉政變」，大清後半葉最關鍵的政治決策幾乎皆與這座宅第息息相關。
+        </p>
+      </div>
+
+      <div class="pillar-card">
+        <div class="pillar-index">歷史地位 02 · 晚清外交與洋務中樞</div>
+        <h3>議政王府邸與近代化起點</h3>
+        <p>
+          咸豐十年（1860）英法聯軍逼近京師，恭親王奕訢留守北京議和，隨後奏設<strong>「總理各國事務衙門」</strong>與同文館。奕訢身為議政王、領班軍機大臣長達二十餘年，恭王府成為晚清實際上的「第二朝廷」，李鴻章、曾國藩、左宗棠等洋務重臣及西方駐華公使頻繁出入於此，見證中國被迫走向近代世界體系的陣痛。
+        </p>
+      </div>
+
+      <div class="pillar-card">
+        <div class="pillar-index">歷史地位 03 · 僅次於紫禁城的禮制巔峰</div>
+        <h3>綠琉璃瓦、錫晉齋與薩滿神殿</h3>
+        <p>
+          恭王府嚴格遵循清代最高等級「和碩親王」規制：中路正殿（銀安殿）與嘉樂堂覆蓋<strong>綠色琉璃瓦</strong>（僅次於皇宮太和殿的黃琉璃瓦）；西路葆光室與<strong>錫晉齋</strong>則保留了和珅仿紫禁城寧壽宮樂壽堂所建的金絲楠木二層仙樓；中路<strong>嘉樂堂</strong>更完整留存了滿族皇室薩滿教祭祀與王爺大婚合婚的獨特空間。
+        </p>
+      </div>
+
+      <div class="pillar-card">
+        <div class="pillar-index">歷史地位 04 · 古典園林與現代文脈交匯</div>
+        <h3>從「萬福萃錦園」到「南張北溥」</h3>
+        <p>
+          佔地2.8萬平方米的後花園<strong>「萃錦園」</strong>集江南太湖石（獨樂峰）、西洋門、大戲樓、流杯亭與康熙御筆「天下第一福」碑於一體。進入民國後，這裡既是恭王孫<strong>溥心畬（寒玉堂）</strong>與<strong>張大千</strong>揮毫締造「南張北溥」傳奇的藝術搖籃，亦曾作為<strong>輔仁大學女生部</strong>與紅學考據聖地，延續了百年中華文脈。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: Interactive Six-Era Timeline & Key Figures -->
+  <section class="section section-alt" id="eras-timeline">
+    <div class="section-header">
+      <span class="section-kicker">CHRONICLES & KEY FIGURES · 歷史沿革與關鍵人物故事</span>
+      <h2 class="section-title">恭王府六大歷史時期、關鍵人物與傳奇故事全紀錄</h2>
+      <p class="section-desc">
+        點擊下方六大時期標籤，深入探索恭王府在不同歷史階段的宅第名稱、核心主人、發生的重大歷史事件與精確時間節點。
+      </p>
+    </div>
+
+    <div class="era-tabs" role="tablist">
+      <button class="era-tab-btn active" onclick="switchEra(0)">
+        ① 和珅與十公主府時期
+        <span class="era-years">乾隆41年–嘉慶4年 (1776–1799)</span>
+      </button>
+      <button class="era-tab-btn" onclick="switchEra(1)">
+        ② 慶僖親王永璘時期
+        <span class="era-years">嘉慶4年–道光30年 (1799–1850)</span>
+      </button>
+      <button class="era-tab-btn" onclick="switchEra(2)">
+        ③ 恭親王奕訢全盛時期
+        <span class="era-years">咸豐元年–光緒24年 (1850–1898)</span>
+      </button>
+      <button class="era-tab-btn" onclick="switchEra(3)">
+        ④ 溥偉襲爵與溥心畬居園
+        <span class="era-years">清末至民初 (1898–1937)</span>
+      </button>
+      <button class="era-tab-btn" onclick="switchEra(4)">
+        ⑤ 輔仁大學與書院時期
+        <span class="era-years">民國26年–新中國初期 (1937–1952)</span>
+      </button>
+      <button class="era-tab-btn" onclick="switchEra(5)">
+        ⑥ 國家保護與百年特展
+        <span class="era-years">周總理囑託至當代 (1962–2026)</span>
+      </button>
+    </div>
+
+    <!-- ERA 0: Heshen -->
+    <div class="era-detail-card active" id="era-card-0">
+      <div class="era-grid">
+        <div>
+          <div class="era-badge-row">
+            <span class="era-tag">第一代主人：大學士和珅、固倫和孝公主</span>
+            <span class="era-tag jade">宅第名稱：和第（延禧堂、嘉樂堂）與十公主府</span>
+          </div>
+          <h3 class="era-title">乾隆盛世的權臣奢夢：金絲楠木「錫晉齋」與嘉慶四年抄家大案</h3>
+          <p>
+            乾隆四十一年（1776年），27歲的<strong>和珅（鈕祜祿氏）</strong>深得乾隆帝寵信，擢升軍機大臣、內務府大臣。他看中什剎海前海西岸（明代舊園及前明太監、清初李氏舊宅水脈相連之地），歷時十餘年大興土木，營建了極盡奢華的私邸。
+          </p>
+          <div class="era-story-list">
+            <div class="era-story-item">
+              <h4>
+                <span>故事一：暗仿紫禁城寧壽宮的「錫晉齋」僭越之謎</span>
+                <span class="story-date">1776年–1788年 營建</span>
+              </h4>
+              <p>
+                乾隆帝為自己退位做太上皇預建了紫禁城寧壽宮「樂壽堂」。和珅竟暗中派人繪出圖紙，在自己宅第西路正廳（原名慶頤堂，後因避嘉慶帝顒琰諱改稱<strong>錫晉齋</strong>），全用名貴<strong>金絲楠木</strong>仿造了與樂壽堂如出一轍的二層仙樓、百寶嵌隔扇與多寶閣，雕飾精美絕倫，埋下了日後殺身之禍的鐵證。
+              </p>
+            </div>
+            <div class="era-story-item">
+              <h4>
+                <span>故事二：十公主下嫁與「一宅分東西」的皇室聯姻</span>
+                <span class="story-date">乾隆五十四年（1789年）</span>
+              </h4>
+              <p>
+                乾隆帝最寵愛的幼女<strong>固倫和孝公主（十公主）</strong>下嫁和珅獨子<strong>豐紳殷德</strong>。乾隆特旨將和珅宅第東路擴建為「和孝公主府」，使這座豪宅兼具權臣相府與皇女額駙府的雙重尊榮。
+              </p>
+            </div>
+            <div class="era-story-item">
+              <h4>
+                <span>故事三：秘雲洞中的康熙御筆「天下第一福」與藏寶樓</span>
+                <span class="story-date">乾隆年間</span>
+              </h4>
+              <p>
+                康熙十二年（1673）康熙帝為祖母孝莊太皇太后「請福續壽」親題「福」字（含多子、多才、多田、多壽、多福五意，且「田」部未封口，寓意福祿無邊）。和珅將此御碑秘藏於後花園太湖石假山<strong>「秘雲洞」</strong>龍脈正穴，使人「見福不能偷」；又在後罩樓建造長達156米、共108間房的<strong>藏寶樓</strong>，以二層44個什錦磚雕窗的不同圖案作為區分金珠古玩的密碼。
+              </p>
+            </div>
+            <div class="era-story-item">
+              <h4>
+                <span>故事四：「和珅跌倒，嘉慶吃飽」——十五日雷霆賜死</span>
+                <span class="story-date">嘉慶四年正月（1799年2月）</span>
+              </h4>
+              <p>
+                嘉慶四年正月初三太上皇乾隆駕崩，嘉慶帝即刻下旨將借守喪之機大權獨攬的和珅革職拿問。正月十八日，嘉慶帝公布和珅<strong>二十大罪</strong>，其中<strong>第十三罪明載：「昨將和珅家產查抄，所蓋楠木房屋，僭侈逾制，其多寶閣及隔段樣式，皆仿照寧壽宮制度，其園寓點綴，竟與圓明園蓬島瑤台無異，不知是何肺腸！」</strong>同日賜和珅在獄中自盡，僅因十公主求情，留豐紳殷德性命與東路公主府。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="era-figure-box">
+          <div class="figure-portrait-wrap">
+            <img class="figure-avatar" src="https://commons.wikimedia.org/wiki/Special:FilePath/Hesen.jpg" alt="和珅畫像" onerror="this.style.display='none'" />
+            <div class="figure-meta">
+              <h4>鈕祜祿·和珅 (1750–1799)</h4>
+              <div class="figure-role">文華殿大學士 · 軍機大臣 · 一等忠襄公</div>
+              <p>滿洲正紅旗人，精通滿、漢、蒙、藏四種文字。乾隆朝掌權二十餘年，為恭王府最初的營造者，奠定了中東西三路與後花園山水格局。</p>
+            </div>
+          </div>
+          <div class="figure-portrait-wrap" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
+            <div class="figure-meta">
+              <h4>固倫和孝公主 (1775–1823)</h4>
+              <div class="figure-role">乾隆帝第十女 · 額駙豐紳殷德之妻</div>
+              <p>性格剛毅果決，深獲乾隆鍾愛（曾言「汝若為皇子，朕必立汝儲也」）。和珅獲罪後，嘉慶帝念兄妹手足之情，保留東路和孝公主府供其居住直至道光三年薨逝。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ERA 1: Yonglin -->
+    <div class="era-detail-card" id="era-card-1">
+      <div class="era-grid">
+        <div>
+          <div class="era-badge-row">
+            <span class="era-tag">第二代主人：慶僖親王愛新覺羅·永璘</span>
+            <span class="era-tag jade">宅第名稱：慶郡王府 → 慶親王府</span>
+          </div>
+          <h3 class="era-title">不慕皇位慕豪宅：乾隆十七子永璘的一句戲言與五十年慶王府</h3>
+          <p>
+            和珅被抄家賜死後，這座京師第一豪宅究竟歸誰所有？答案竟源自乾隆帝第十七子、嘉慶帝同母胞弟<strong>永璘（1766–1820）</strong>少年時的一句真心話。
+          </p>
+          <div class="era-story-list">
+            <div class="era-story-item">
+              <h4>
+                <span>故事一：「皇帝多如雨落，亦不能滴吾頂上，惟求和珅第！」</span>
+                <span class="story-date">乾隆末年至嘉慶四年（1799年）</span>
+              </h4>
+              <p>
+                據《嘯亭雜錄》記載，乾隆末年諸皇子暗中窺伺儲位時，唯獨生性豁達、喜愛戲曲遊樂的十七阿哥永璘毫無政治野心，對眾兄長笑言：<strong>「使皇帝多如雨落，亦不能滴吾頂上！惟求諸兄見憐，日後將和珅邸第賜居，則吾願足矣！」</strong>嘉慶四年（1799）誅和珅後，嘉慶帝信守當年承諾，冊封胞弟永璘為惠郡王（旋改<strong>慶郡王</strong>），並將和珅宅第西半部正式賜予永璘，十公主則繼續居住東路，形成「一府兩主、兄妹比鄰」的獨特歷史時期。
+              </p>
+            </div>
+            <div class="era-story-item">
+              <h4>
+                <span>故事二：嘉慶二十五年晉封慶親王與道光朝「革爵收府」</span>
+                <span class="story-date">1820年–1850年</span>
+              </h4>
+              <p>
+                嘉慶二十五年（1820）三月，永璘病重，嘉慶帝親臨探視並晉封其為<strong>和碩慶親王</strong>，不久永璘薨逝，諡號「僖」。其後子孫按清制遞降襲爵（綿愍襲慶郡王、奕綵襲慶郡王）。道光二十二年（1842），奕綵因在服喪期間納妾並賄賂宗人府被道光帝革去王爵，永璘第六子綿性亦因行賄謀襲王爵被發配盛京。至道光三十年（1850），永璘後人僅降襲「輔國公」，按大清會典<strong>「公爵不得居住王府」</strong>，遂由內務府收回此宅（後來晚清著名的「鐵帽子慶親王」奕劻是永璘之孫，但他另獲賜定阜大街的新慶王府）。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="era-figure-box">
+          <div class="figure-portrait-wrap" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
+            <div class="figure-meta">
+              <h4>愛新覺羅·永璘 (1766–1820)</h4>
+              <div class="figure-role">乾隆帝第十七子 · 孝儀純皇后（令妃）所生 · 首任慶親王</div>
+              <p>與嘉慶帝顒琰為同胞兄弟。因毫無爭儲之心、直率可愛而深得嘉慶帝厚愛。他在這座宅第度過了二十一年安逸富貴的王爺歲月，其子孫又在此延續三十年，使宅第由權臣私第正式升格為皇家王府規制。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ERA 2: Prince Gong Yixin -->
+    <div class="era-detail-card" id="era-card-2">
+      <div class="era-grid">
+        <div>
+          <div class="era-badge-row">
+            <span class="era-tag">第三代主人：和碩恭忠親王愛新覺羅·奕訢</span>
+            <span class="era-tag jade">宅第名稱：恭王府（自1852年定名至今）</span>
+          </div>
+          <h3 class="era-title">晚清帝國的「第二朝廷」：從一匣二諭、辛酉政變到萬福萃錦園</h3>
+          <p>
+            道光三十年（1850年）正月，道光帝駕崩，秘密立儲鐍匣開啟：皇四子奕詝繼位（咸豐帝），皇六子<strong>奕訢</strong>封為<strong>和碩恭親王</strong>（清史載道光帝曾突破祖制「一匣二諭」）。咸豐元年（1851）咸豐帝將收回的原慶王府賜予六弟奕訢；<strong>咸豐二年（1852年）四月二十二日</strong>，奕訢正式遷入，這座名震天下的府邸自此定名<strong>「恭王府」</strong>。
+          </p>
+          <div class="era-story-list">
+            <div class="era-story-item">
+              <h4>
+                <span>故事一：1860年留守危局與中國近代外交、洋務運動的起點</span>
+                <span class="story-date">咸豐十年（1860年）–咸豐十一年（1861年）</span>
+              </h4>
+              <p>
+                1860年秋，英法聯軍攻陷通州、火燒圓明園，咸豐帝倉皇北狩承德避暑山莊，命28歲的恭親王奕訢留守北京收拾殘局。奕訢在刺刀下簽訂《北京條約》保住紫禁城與京城免遭焚毀；經此劇變，奕訢深感「師夷長技」之急迫，於1861年正月領銜奏請設立<strong>「總理各國事務衙門」</strong>與京師同文館，親自坐鎮恭王府統籌洋務，開啟晚清三十餘年自強運動。
+              </p>
+            </div>
+            <div class="era-story-item">
+              <h4>
+                <span>故事二：1861年「辛酉政變」（祺祥政變）——恭王府決定晚清國運</span>
+                <span class="story-date">咸豐十一年九月至十月（1861年11月）</span>
+              </h4>
+              <p>
+                1861年8月咸豐帝病逝熱河，留下肅順、載垣、端華等「顧命八大臣」架空慈安、慈禧兩宮太后與幼帝載淳（同治帝）。奕訢奔喪熱河時與兩宮太后密定大計，隨即星夜兼程趕回北京恭王府，聯絡留京大學士桂良、勝保之兵權，在十月初一梓宮回京之際發動<strong>「辛酉政變」</strong>，一舉逮捕八大臣！奕訢獲封<strong>「議政王」</strong>、領班軍機大臣、總理衙門首席大臣，並獲賜<strong>「世襲罔替」（鐵帽子王）</strong>殊榮，恭王府成為大清帝國權力中樞。
+              </p>
+            </div>
+            <div class="era-story-item">
+              <h4>
+                <span>故事三：重修「萃錦園」與西洋門上的圓明園警世銘</span>
+                <span class="story-date">同治年間（1860年代–1870年代）</span>
+              </h4>
+              <p>
+                奕訢執政期間，調集皇家御用工匠「樣式雷」傳人重修後花園，取名<strong>「萃錦園」</strong>。他在園門仿圓明園大法海園門修建漢白玉<strong>「西洋門」</strong>，外刻<strong>「靜含太古」</strong>、內刻<strong>「秀挹恒春」</strong>，既彰顯中西交匯眼光，亦時刻銘記圓明園被毀之國恥。他更在園中遍飾蝙蝠紋樣（蝙蝠諧音「福」），從蝠池、蝠廳到迴廊彩畫共計<strong>9,999隻蝙蝠</strong>，加上秘雲洞中康熙御筆「天下第一福」碑，構成<strong>「萬福之地」</strong>。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="era-figure-box">
+          <div class="figure-portrait-wrap">
+            <img class="figure-avatar" src="https://commons.wikimedia.org/wiki/Special:FilePath/Yixin,_1st_Prince_Gong.jpg" alt="恭親王奕訢歷史照片（約翰·湯姆生1872年攝於北京）" onerror="this.style.display='none'" />
+            <div class="figure-meta">
+              <h4>愛新覺羅·奕訢 (1833–1898)</h4>
+              <div class="figure-role">道光帝第六子 · 議政王 · 首任鐵帽子恭親王</div>
+              <p>號樂道堂主人（恭王府東路「樂道堂」即其起居堂號，亦是2026年張大千溥心畬百年特展所在地）。晚清洋務派最高領袖，掌樞廷數十年，光緒二十四年（1898）四月病逝於恭王府，光緒帝與慈禧太后親臨恭王府祭奠，諡號「忠」。</p>
+            </div>
+          </div>
+          <div style="background: rgba(123,30,30,0.08); padding: 14px; border-radius: 6px; font-size: 0.88rem; color: var(--ink-secondary);">
+            <strong>歷史冷知識：</strong>上圖為英國攝影家約翰·湯姆生（John Thomson）於同治十一年（1872年）為39歲的恭親王奕訢拍攝的濕版攝影肖像，是西方世界最早認識的中國皇室改革派領袖影像。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ERA 3: Puwei & Pu Xinyu -->
+    <div class="era-detail-card" id="era-card-3">
+      <div class="era-grid">
+        <div>
+          <div class="era-badge-row">
+            <span class="era-tag">第四代主人：末代恭親王溥偉、舊王孫溥心畬</span>
+            <span class="era-tag jade">關鍵空間：萃錦園 · 蝠廳「寒玉堂」</span>
+          </div>
+          <h3 class="era-title">王朝落幕的雙面人生：溥偉變賣王府國寶 vs. 溥心畬「寒玉堂」藝壇傳奇</h3>
+          <p>
+            光緒二十四年（1898）奕訢逝世，因長子載澂早夭，由次子載瀅之子（奕訢長孫）<strong>溥偉（1880–1936）</strong>承襲鐵帽子恭親王爵位，俗稱「小恭王」；而載瀅次子<strong>溥儒（字心畬，1896–1963）</strong>則自幼在恭王府飽讀詩書，成為飲譽天下的書畫巨擘。
+          </p>
+          <div class="era-story-list">
+            <div class="era-story-item">
+              <h4>
+                <span>故事一：1912年「山中商會國寶流失案」與西什庫教堂抵押</span>
+                <span class="story-date">1912年–1921年</span>
+              </h4>
+              <p>
+                辛亥革命後清帝退位，溥偉激烈反對共和，逃往青島與大連策劃「宗社黨」復辟。為籌集復辟經費，溥偉於1912年竟將恭王府三代珍藏的青銅彝器、宋元瓷器、翡翠玉器數千件，整批賤賣給日本古董商<strong>山中定次郎（山中商會）</strong>，引發國際拍賣震動（唯獨晉唐宋元頂級書畫如西晉陸機《平復帖》、唐韓幹《照夜白圖》、北宋易元吉《聚猿圖》等由溥心畬、溥僡兄弟分藏保留）。1921年，債台高築的溥偉更以18萬銀元將整座恭王府及花園抵押給北京西什庫天主堂（羅馬教廷傳信部）。
+              </p>
+            </div>
+            <div class="era-story-item">
+              <h4>
+                <span>故事二：舊王孫歸隱萃錦園「寒玉堂」與張大千訂交</span>
+                <span class="story-date">1924年–1938年</span>
+              </h4>
+              <p>
+                與熱衷復辟的堂兄不同，<strong>溥心畬</strong>絕意仕途，早年奉母隱居西山戒台寺苦讀十年，後於1924年遷回祖邸恭王府後花園<strong>萃錦園</strong>居住（將蝠廳畫室命名為<strong>「寒玉堂」</strong>）。1926年他與<strong>張大千</strong>初識，<strong>1928年張大千專程赴恭王府萃錦園拜訪</strong>，兩人在海棠花下、太湖石畔揮毫唱和，締造了中國近現代畫壇最耀眼的<strong>「南張北溥」</strong>黃金時代（詳見下方專題展廳）。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="era-figure-box">
+          <div class="figure-portrait-wrap">
+            <img class="figure-avatar" src="https://commons.wikimedia.org/wiki/Special:FilePath/%E6%BA%A5%E5%84%92%E8%87%B4%E8%94%A3%E4%B8%AD%E6%AD%A3%E7%B0%BD%E5%90%8D%E7%85%A7_(cropped).jpg" alt="溥心畬（溥儒）歷史照片" onerror="this.style.display='none'" />
+            <div class="figure-meta">
+              <h4>愛新覺羅·溥心畬 (1896–1963)</h4>
+              <div class="figure-role">恭親王奕訢次孫 · 「舊王孫」 · 寒玉堂主人</div>
+              <p>名溥儒，字心畬。生於恭王府，詩、書、畫三絕，被譽為「中國文人畫最後一筆」。1937年為籌母喪費用，忍痛將家藏國寶西晉陸機《平復帖》轉讓給張伯駒先生，促成《平復帖》日後留存故宮博物院。</p>
+            </div>
+          </div>
+          <div class="figure-portrait-wrap" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
+            <div class="figure-meta">
+              <h4>鎮國公載澤 (1868–1929) · 實拍照片人物</h4>
+              <div class="figure-role">晚清出洋考察五大臣之首 · 度支部尚書</div>
+              <p>您的實拍照片 <code>IMG_8625.jpeg</code> 正是展出了載澤夫人（慈禧太后胞弟桂祥之女靜榮）在府中接待美國公使康格夫人的珍貴歷史合影，見證清末宗室皇族的「夫人外交」。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ERA 4: Fu Jen University -->
+    <div class="era-detail-card" id="era-card-4">
+      <div class="era-grid">
+        <div>
+          <div class="era-badge-row">
+            <span class="era-tag">第五階段：天主教輔仁大學與書院時期</span>
+            <span class="era-tag jade">核心人物：陳垣校長、周汝昌（紅學家）</span>
+          </div>
+          <h3 class="era-title">王府化作弦歌地：輔仁大學女生部與《紅樓夢》大觀園考證</h3>
+          <p>
+            1936年溥偉病逝於新京（長春），因無力償還天主教會本息，<strong>1937年（民國二十六年）</strong>，毗鄰定阜大街的<strong>天主教輔仁大學</strong>以19萬華北元（連同代償債務共計約40萬元）正式贖買恭王府及萃錦園產權。
+          </p>
+          <div class="era-story-list">
+            <div class="era-story-item">
+              <h4>
+                <span>故事一：抗戰烽火中的庇護所——輔仁大學女生部（瞻山書院）</span>
+                <span class="story-date">1937年–1949年</span>
+              </h4>
+              <p>
+                盧溝橋事變後北平淪陷，由於天主教輔仁大學具有羅馬教廷與德國聖言會背景，日軍不敢輕易查抄。陳垣校長將恭王府修葺為<strong>輔仁大學女生部（女院）</strong>及司鐸書院，使這座百年清代王府在八年抗戰期間完好無損，更成為無數愛國師生讀書救國的避風港。
+              </p>
+            </div>
+            <div class="era-story-item">
+              <h4>
+                <span>故事二：紅學泰斗周汝昌在此求學，考證恭王府與《紅樓夢》大觀園之謎</span>
+                <span class="story-date">1940年代–1960年代</span>
+              </h4>
+              <p>
+                著名紅學家<strong>周汝昌</strong>當年就讀於輔仁大學，常在恭王府與萃錦園散步讀書；著名學者顧隨、啟功等亦在此任教。周汝昌先生後來撰寫專著《芳園築向帝城西——恭王府與紅樓夢》，指出恭王府前身（明代李園及清初江南名士造園遺存）與曹雪芹筆下榮國府、大觀園的山水曲折、翠嶂障景（獨樂峰）、曲水流觴有著驚人的空間契合。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="era-figure-box">
+          <div class="figure-portrait-wrap" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
+            <div class="figure-meta">
+              <h4>陳垣 (1880–1971) & 輔仁學人群像</h4>
+              <div class="figure-role">輔仁大學校長 · 近代史學大師 · 啟功恩師</div>
+              <p>陳垣先生主持輔仁大學期間，與愛新覺羅宗室後裔<strong>啟功</strong>、書畫家<strong>溥心畬</strong>（曾任輔仁大學美術系教授）、<strong>溥伒（溥雪齋）</strong>共同構建了京華學術與書畫重鎮。恭王府作為大學學府的這段歲月，使其由封建貴族禁苑轉化為現代人文殿堂。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ERA 5: Modern Rebirth & 2026 Exhibition -->
+    <div class="era-detail-card" id="era-card-5">
+      <div class="era-grid">
+        <div>
+          <div class="era-badge-row">
+            <span class="era-tag">第六階段：大雜院騰退、全面開放與百年特展</span>
+            <span class="era-tag jade">1962–2026 國家一級博物館</span>
+          </div>
+          <h3 class="era-title">周恩來總理臨終囑託、28年騰退修繕與2026「南張北溥」百年重逢</h3>
+          <p>
+            1952年院系調整後，恭王府曾先後被中國音樂學院、中國藝術研究院、風機廠等8家單位及200多戶居民佔用，一度淪為擁擠不堪的大雜院（1921年銀安殿更曾因元宵節失火焚毀，後於2007年復建）。
+          </p>
+          <div class="era-story-list">
+            <div class="era-story-item">
+              <h4>
+                <span>故事一：周恩來總理兩次批示與病榻前的最後囑託</span>
+                <span class="story-date">1962年 & 1975年</span>
+              </h4>
+              <p>
+                1962年周恩來總理在紅學家周汝昌來信保護恭王府的報告上親筆批示予以保護；<strong>1975年周總理病重住院期間</strong>，特意將國務院副總理<strong>谷牧</strong>召至病榻前，留下三件文化遺願，第一件便是：<strong>「把恭王府完整地保護下來，修繕好，向社會開放。」</strong>
+              </p>
+            </div>
+            <div class="era-story-item">
+              <h4>
+                <span>故事二：1982年國保立碑、1988年花園開放與2008年王府重光</span>
+                <span class="story-date">1982年–2008年</span>
+              </h4>
+              <p>
+                <strong>1982年2月23日</strong>，國務院公布恭王府及花園為第二批<strong>全國重點文物保護單位</strong>（即您實拍首圖 <code>IMG_8623.jpeg</code> 底部石碑所載）。歷經長達28年的搬遷騰退與古建修繕，1988年萃錦園率先開放；<strong>2008年北京奧運會前夕</strong>，恭王府府邸全面完成修繕向公眾開放，實現了「完整恭王府」的世紀回歸。
+              </p>
+            </div>
+            <div class="era-story-item">
+              <h4>
+                <span>故事三：2026年樂道堂「溥心畬張大千會面百年特展」文物回娘家</span>
+                <span class="story-date">2026年（1926–2026 百年紀念）</span>
+              </h4>
+              <p>
+                為紀念1926年溥心畬與張大千在北京初次會面滿一百週年，文化和旅遊部恭王府博物館在府邸<strong>樂道堂</strong>隆重推出<strong>「溥心畬張大千會面百年特展」</strong>，匯聚故宮博物院、中國美術館、吉林省博物院等10家文博機構48件/套國寶真跡（包含您實拍的故宮藏張大千1948年《連理雙鴿》與吉林省博藏二人合作《放紙鳶》），讓百年前誕生於恭王府的知音佳話重返歷史原點！
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="era-figure-box">
+          <div class="figure-portrait-wrap" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
+            <div class="figure-meta">
+              <h4>恭王府建築空間規制一覽（對應 <code>IMG_8623.jpeg</code>）</h4>
+              <div class="figure-role">三路五進院落 · 前府後園</div>
+              <p>
+                <strong>• 中路（禮制軸線）：</strong>一宮門 → 二宮門 → 銀安殿（正殿，綠琉璃瓦） → 嘉樂堂（薩滿神殿，見 <code>IMG_8631.jpeg</code>）。<br>
+                <strong>• 東路（起居與特展軸線）：</strong>多福軒（奕訢會客廳） → <strong>樂道堂</strong>（奕訢起居室，今「溥心畬張大千會面百年特展」展廳）。<br>
+                <strong>• 西路（精緻楠木軸線）：</strong>葆光室 → <strong>錫晉齋</strong>（和珅金絲楠木仙樓）。<br>
+                <strong>• 後罩樓與萃錦園：</strong>156米藏寶樓 → 西洋門 → <strong>獨樂峰</strong>（見 <code>IMG_8692-8694.jpeg</code>） → 蝠池 → 安善堂 → 秘雲洞（福字碑） → 大戲樓 → <strong>蝠廳（溥心畬寒玉堂舊址）</strong>。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: Qing Dynasty Peerage & Mansion Distribution (Based on Photos 8625-8630) -->
+  <section class="section" id="qing-peerage">
+    <div class="section-header">
+      <span class="section-kicker">IMPERIAL SYSTEM & GEOGRAPHY · 滿清宗室封爵與王府版圖</span>
+      <h2 class="section-title">「封爵不賜土」與京師王府政治地理：解碼實拍展板檔案</h2>
+      <p class="section-desc">
+        在您拍攝的 <code>IMG_8625</code> 至 <code>IMG_8630</code> 六幅展板中，完整呈現了清朝得以避免明代藩王割據之禍的核心國策——
+        <strong>「封爵不賜土、王公聚居京師」</strong>，以及宗室十二等爵位與什剎海三大「鐵帽子王」的空間格局。
+      </p>
+    </div>
+
+    <div class="peerage-layout">
+      <!-- Interactive 12-Rank Table -->
+      <div class="peerage-table-wrap">
+        <div class="peerage-table-header">
+          <div>
+            <h3 style="font-size:1.18rem;">清朝宗室十二等級爵位表（據 <code>IMG_8628.jpeg</code> 實拍展板）</h3>
+            <p style="font-size:0.8rem; color:#d8ccb8; font-family:'Noto Sans SC',sans-serif;">皇太極崇德元年（1636）肇建，順治六年（1649）完善定型</p>
+          </div>
+          <div class="peerage-filter-btns">
+            <button class="peerage-filter-btn active" onclick="filterPeerage('all', this)">全部十二等</button>
+            <button class="peerage-filter-btn" onclick="filterPeerage('royal', this)">王貝勒貝子 (1–4等)</button>
+            <button class="peerage-filter-btn" onclick="filterPeerage('duke', this)">公爵 (5–8等)</button>
+            <button class="peerage-filter-btn" onclick="filterPeerage('general', this)">將軍 (9–12等)</button>
+          </div>
+        </div>
+
+        <table class="peerage-table" id="peerageTable">
+          <thead>
+            <tr>
+              <th style="width:16%">等級</th>
+              <th style="width:28%">爵位名稱</th>
+              <th style="width:34%">襲爵規定（推恩降襲制）</th>
+              <th style="width:22%">特殊備註與代表人物</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-tier="royal">
+              <td><strong>第一等</strong></td>
+              <td><strong>和碩親王</strong> <span class="iron-cap-badge">鐵帽子王</span></td>
+              <td>代降一等，降襲至鎮國公為世職</td>
+              <td>「鐵帽子」親王爵位<strong>世襲罔替</strong>（如恭親王奕訢、慶親王永璘/奕劻、醇親王奕譞）</td>
+            </tr>
+            <tr data-tier="royal">
+              <td><strong>第二等</strong></td>
+              <td><strong>多羅郡王</strong> <span class="iron-cap-badge">鐵帽子王</span></td>
+              <td>代降一等，降襲至輔國公為世職</td>
+              <td>「鐵帽子」郡王爵位<strong>世襲罔替</strong>（清初克勤郡王、順承郡王；永璘初封慶郡王）</td>
+            </tr>
+            <tr data-tier="royal">
+              <td><strong>第三等</strong></td>
+              <td><strong>多羅貝勒</strong></td>
+              <td>代降一等，降襲至不入八分鎮國公為世職</td>
+              <td>如載濤（濤貝勒府，今位於恭王府北側柳蔭街）</td>
+            </tr>
+            <tr data-tier="royal">
+              <td><strong>第四等</strong></td>
+              <td><strong>固山貝子</strong></td>
+              <td>代降一等，降襲至不入八分輔國公為世職</td>
+              <td>如棍布扎布（棍貝子府，位於新街口東街積水潭畔）</td>
+            </tr>
+            <tr data-tier="duke">
+              <td><strong>第五等</strong></td>
+              <td><strong>奉恩鎮國公</strong></td>
+              <td>代降一等，降襲至鎮國將軍為世職</td>
+              <td>位列「入八分公」之首；<strong>載澤</strong>（見 <code>IMG_8625.jpeg</code>）即封奉恩鎮國公，後加貝子銜</td>
+            </tr>
+            <tr data-tier="duke">
+              <td><strong>第六等</strong></td>
+              <td><strong>奉恩輔國公</strong></td>
+              <td>代降一等，降襲至輔國將軍為世職</td>
+              <td>位列「入八分公」；永璘後人道光三十年降襲輔國公後即按制騰退慶王府</td>
+            </tr>
+            <tr data-tier="duke">
+              <td><strong>第七等</strong></td>
+              <td><strong>不入八分鎮國公</strong></td>
+              <td>代降一等，降襲至奉國將軍為世職</td>
+              <td>不享朱輪紫韁、朝會隨侍等「八分」特權標誌</td>
+            </tr>
+            <tr data-tier="duke">
+              <td><strong>第八等</strong></td>
+              <td><strong>不入八分輔國公</strong></td>
+              <td>代降一等，降襲至奉恩將軍為世職</td>
+              <td>貝子三代降襲後之世職</td>
+            </tr>
+            <tr data-tier="general">
+              <td><strong>第九等</strong></td>
+              <td><strong>鎮國將軍</strong></td>
+              <td>分一、二、三等，按例降襲</td>
+              <td>相當於一品武官品級之宗室封號</td>
+            </tr>
+            <tr data-tier="general">
+              <td><strong>第十等</strong></td>
+              <td><strong>輔國將軍</strong></td>
+              <td>分一、二、三等，按例降襲</td>
+              <td>相當於二品武官品級之宗室封號</td>
+            </tr>
+            <tr data-tier="general">
+              <td><strong>第十一等</strong></td>
+              <td><strong>奉國將軍</strong></td>
+              <td>分一、二、三等，按例降襲</td>
+              <td>相當於三品武官品級之宗室封號</td>
+            </tr>
+            <tr data-tier="general">
+              <td><strong>第十二等</strong></td>
+              <td><strong>奉恩將軍</strong></td>
+              <td>宗室最低一等爵位，世襲罔替</td>
+              <td>相當於四品品級，不再降襲</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Right Column: Insights on Feudal System, Shichahai Geography & Duke Zaize's Diplomacy -->
+      <div style="display:flex; flex-direction:column; gap:22px;">
+        <div class="pillar-card" style="margin:0;">
+          <div class="pillar-index">制度精髓 · <code>IMG_8626</code> & <code>IMG_8627</code> 解讀</div>
+          <h3>四大封爵途徑與「封爵不賜土」</h3>
+          <p>
+            皇太極於天聰九年（1635）定族名為滿洲，崇德元年（1636）定國號大清；順治元年（1644）遷都北京、順治六年（1649）完善封爵。宗室取得爵位有四種途徑：<strong>功封（立軍功或政績）、恩封（皇子成年分封）、襲封（承襲先人爵位）、考封（宗室子弟應試馬步射與翻譯）</strong>。清朝深刻吸取明朝藩王就藩外地、擁兵自重的教訓，實行<strong>「封爵不賜土，只在京城賜府，不許擅自離京」</strong>，從而造就了北京獨一無二的王府文化圈。
+          </p>
+        </div>
+
+        <div class="pillar-card" style="margin:0; border-top-color:var(--jade);">
+          <div class="pillar-index">王府版圖 · <code>IMG_8629</code> & <code>IMG_8630</code> 解讀</div>
+          <h3>什剎海：晚清三大「鐵帽子王」聚居地</h3>
+          <p>
+            清軍入關後實行「滿漢分城」，漢人遷往外城（前三門外），內城由八旗拱衛。順治初年，攝政王多爾衮的<strong>睿親王府</strong>與代善的<strong>禮親王府</strong>分踞皇城東西兩側；到了晚清，碧波蕩漾、垂柳依依的<strong>什剎海地區</strong>成為最高權貴聚居區——晚清政壇最顯赫的三大世襲罔替「鐵帽子王」：<strong>恭親王奕訢（恭王府，前海西街）、醇親王奕譞（醇親王府，後海北沿，光緒與宣統誕生地）、慶親王奕劻（慶王府，定阜大街）</strong>以及濤貝勒府、棍貝子府皆環繞什剎海而建！
+          </p>
+        </div>
+
+        <div class="pillar-card" style="margin:0; border-top-color:var(--gold);">
+          <div class="pillar-index">歷史瞬間 · <code>IMG_8625.jpeg</code> 深度故事</div>
+          <h3>鎮國公載澤夫人與美國公使康格夫人合影</h3>
+          <p>
+            <code>IMG_8625.jpeg</code> 展示了晚清宗室重臣<strong>奉恩鎮國公載澤（1868–1929）</strong>的夫人<strong>靜榮</strong>（慈禧太后胞弟桂祥之女、隆裕太后親妹），在府中盛裝接待美國駐華公使康格（Edwin H. Conger）夫人 <strong>Sarah Pike Conger</strong> 的歷史照片。1900年庚子事變後，慈禧太后與王公福晉展開積極的「夫人外交」，Sarah Conger 成為最早受邀走入紫禁城與各大王府的西方女性；而載澤本人更於光緒三十一年（1905）作為「五大臣出洋考察憲政」之首訪問美歐日，回國後奏請預備立憲、執掌度支部，是晚清皇族走向近代外交的關鍵人物。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: Nan Zhang Bei Pu Centennial Exhibition (1926-2026) -->
+  <section class="section-dark" id="nanzhang-beipu">
+    <div class="section">
+      <div class="section-header">
+        <span class="section-kicker">CENTENNIAL EXHIBITION (1926–2026) · 恭王府樂道堂重磅特展</span>
+        <h2 class="section-title">「南張北溥」在恭王府的百年交會：張大千與溥心畬的萃錦園傳奇</h2>
+        <p class="section-desc">
+          1926年，三十歲的恭王府「舊王孫」溥心畬與二十七歲的四川奇才張大千在北京首次相遇；
+          1928年，張大千專程走進恭王府後花園<strong>萃錦園（寒玉堂）</strong>拜會溥心畬，兩人一見如故、徹夜揮毫。
+          時隔整整一百年（1926—2026），恭王府博物館在府邸<strong>樂道堂</strong>舉辦「溥心畬張大千會面百年特展」，
+          讓當年誕生於此的丹青墨寶與深厚情誼，跨越世紀重返歷史地理原點。
+        </p>
+      </div>
+
+      <!-- Dual Master Cards -->
+      <div class="art-masters-grid">
+        <div class="master-card">
+          <div class="master-header">
+            <div class="master-seal">大千<br>居士</div>
+            <div class="master-title">
+              <h3>南張 · 張大千（張爰，1899–1983）</h3>
+              <p>四川內江人 · 集傳統大成、化古開今的藝壇豪傑</p>
+            </div>
+          </div>
+          <p style="font-size:0.95rem; color:#e6dfd3; line-height:1.85; margin-bottom:14px;">
+            如實拍展板 <code>IMG_8696</code> 與 <code>IMG_8699</code> 所載：1919年張大千拜入曾熙、李瑞清門下，以金石書法為根基，由徐渭、石濤、八大山人入手，筆墨精湛可亂真；在二兄<strong>張善孖</strong>引路及滬上藏家<strong>李祖韓、李秋君</strong>兄妹鼎力相扶下，深入京滬書畫圈並數登黃山寫生，完成從「師古人」到「師造化」的飛躍。
+          </p>
+          <p style="font-size:0.95rem; color:#e6dfd3; line-height:1.85;">
+            他上溯宋元董源、巨然、李唐、范寬，中年遠赴敦煌面壁臨摹壁畫，晚年開創<strong>潑墨潑彩</strong>之法，兼具「北宗之骨力與南宗之意韻」，徐悲鴻譽之為「五百年來第一人」。
+          </p>
+        </div>
+
+        <div class="master-card">
+          <div class="master-header">
+            <div class="master-seal" style="background:var(--jade); border-color:var(--gold-light);">舊王<br>孫印</div>
+            <div class="master-title">
+              <h3>北溥 · 溥心畬（愛新覺羅·溥儒，1896–1963）</h3>
+              <p>恭親王奕訢次孫 · 萃錦園「寒玉堂」主人 · 詩書畫三絕</p>
+            </div>
+          </div>
+          <p style="font-size:0.95rem; color:#e6dfd3; line-height:1.85; margin-bottom:14px;">
+            生於北京恭王府，自幼受嚴格皇族經史教育，四歲讀書、七歲能詩。辛亥革命後隱居西山戒台寺苦讀十年，<strong>1924年至1938年間遷回恭王府後花園萃錦園居住</strong>，於蝠廳設畫室<strong>「寒玉堂」</strong>（寒玉堂匾額至今仍保存在萃錦園蝠廳之內）。
+          </p>
+          <p style="font-size:0.95rem; color:#e6dfd3; line-height:1.85;">
+            溥心畬並無專師，全憑臨摹恭王府家藏晉唐宋元真跡（如馬遠、夏圭、李唐等北宗院體名作）自悟成家，筆法秀逸清剛、書卷氣極濃，代表了北方皇室貴胄與正統北宗青綠山水的最高境界。
+          </p>
+        </div>
+      </div>
+
+      <!-- 4 Vivid Stories of Their Intersection at Prince Gong's Mansion -->
+      <h3 style="text-align:center; color:var(--gold-light); font-size:1.55rem; margin-bottom:10px;">
+        發生在恭王府萃錦園與寒玉堂的四大交會故事
+      </h3>
+      <p style="text-align:center; color:#cfc4b0; font-size:0.96rem; max-width:820px; margin:0 auto;">
+        一位是生於王府、骨子裡帶著士大夫清高傲骨的滿洲王孫；一位是仗劍走天涯、蓄著美髯的巴蜀才子。兩人在恭王府的交會，碰撞出怎樣的火花？
+      </p>
+
+      <div class="anecdotes-grid">
+        <div class="anecdote-card">
+          <span class="anecdote-num">交會故事 01 · 1926初見與1928萃錦園訂交</span>
+          <h4>春華樓初識，海棠花下寒玉堂結為知音</h4>
+          <p>
+            <strong>1926年</strong>，經同光體詩壇泰斗<strong>陳三立</strong>（陳寅恪之父）引薦，30歲的溥心畬與27歲的張大千在北京<strong>春華樓</strong>飯局上首次會面，席間談詩論畫，驚為天人。<strong>1928年</strong>，張大千專程赴恭王府後花園<strong>萃錦園（寒玉堂）</strong>拜訪溥心畬，自此正式訂交。此後張大千每次北上北平，必定直奔恭王府，甚至常在萃錦園與頤和園聽鸝館之間與心畬聯袂作畫、鑑定古畫。
+          </p>
+        </div>
+
+        <div class="anecdote-card">
+          <span class="anecdote-num">交會故事 02 · 案頭互擲宣紙的《放紙鳶》傳奇</span>
+          <h4>三小時揮毫數十幀，百年後《放紙鳶》回娘家</h4>
+          <p>
+            在恭王府萃錦園蝠廳「寒玉堂」中，兩人最愛即興合作。據記載，有一次兩人興致勃發，大畫案兩端各坐一人，案旁放著幾十張宣紙與冊頁：<strong>一人先運筆如飛畫好人物或奇石，隨手擲過畫案，另一人毫不思索即刻補畫山水松竹並題詩，短短三小時內竟合作了數十幅妙品！</strong>本次恭王府百年特展重磅展出的吉林省博物院藏<strong>《放紙鳶》</strong>，正是當年張大千在萃錦園畫放風箏的稚童、溥心畬補繪秀逸山水並雙雙題跋的「回娘家」代表作。
+          </p>
+        </div>
+
+        <div class="anecdote-card">
+          <span class="anecdote-num">交會故事 03 · 1934年「南張北溥」定名與推崇</span>
+          <h4>「並世畫雪景，當以溥王孫為第一，予每避不敢作」</h4>
+          <p>
+            <strong>1934年9月</strong>，京派名畫家<strong>于非闇</strong>在《北晨畫刊》發表文章，首次正式提出<strong>「南張北溥」</strong>之說，迅速風靡全國。如實拍展板 <code>IMG_8695.jpeg</code> 所析：這既是江南水鄉溫潤與北方山川雄渾的地理交融，也是「在野文人」與「皇族王孫」、董其昌「南宗寫意」與「北宗院體」的完美互補。張大千一生極度推崇老友，公開讚嘆：<strong>「柔而能健，峭而能厚，吾仰溥心畬。並世畫雪景，當以溥王孫為第一，予每避不敢作！」</strong>
+          </p>
+        </div>
+
+        <div class="anecdote-card">
+          <span class="anecdote-num">交會故事 04 · 王孫老饕菜單 vs. 川菜大廚大千</span>
+          <h4>妙趣橫生的飲食雅集與「心畬訂」天價菜單</h4>
+          <p>
+            除了丹青唱和，兩位大師還都是極懂美食的「老饕」！張大千精通川菜廚藝，常親自下廚款待好友；而溥心畬在恭王府宴客更是講究到極致，曾親筆用毛筆開列宴席菜單（落款「心畬訂」），連火候與配料都逐一批註，盡顯舊王孫的真性情：
+          </p>
+          <div class="menu-box">
+            <strong>📜 溥心畬手書宴客菜單節選：</strong><br>
+            「魚翅（排翅）、雞粥（加火腿）、拌豬腦（醬瓜、蒜）、炸丸子（要大，不要茜粉）、烹蝦（小塊，多加蔥、蒜）…… 心畬訂。」
+          </div>
+        </div>
+      </div>
+
+      <!-- Masterpiece Spotlight: IMG_8697 & IMG_8698 -->
+      <div class="painting-showcase">
+        <div class="painting-showcase-grid">
+          <div class="painting-img-stage">
+            <img src="images/IMG_8698.jpeg" alt="張大千《連理雙鴿》1948年 故宮博物院藏（現場實拍）" onclick="openLightbox('images/IMG_8698.jpeg', '張大千《連理雙鴿》（1948年，故宮博物院藏）', '縱141厘米，橫70厘米。恭王府樂道堂「溥心畬張大千會面百年特展」現場實拍真跡。')" />
+            <div style="color:#d6c6a5; font-size:0.84rem; margin-top:12px; font-family:'Noto Sans SC',sans-serif;">
+              ▲ 點擊畫作可開啟全螢幕高清鑑賞（對應檔案 <code>IMG_8698.jpeg</code> 及展簽 <code>IMG_8697.jpeg</code>）
+            </div>
+          </div>
+
+          <div class="painting-info-stage">
+            <div class="era-badge-row">
+              <span class="era-tag">鎮展真跡 · 故宮博物院藏</span>
+              <span class="era-tag jade">戊子三月（1948年） · 縱141cm × 橫70cm</span>
+            </div>
+            <h3 style="font-size:1.8rem; color:var(--ink); margin-bottom:10px;">
+              張大千《連理雙鴿》：宋人雙鉤院體與人間深情的絕唱
+            </h3>
+            <p style="font-size:0.96rem; color:var(--ink-secondary); line-height:1.85;">
+              在恭王府樂道堂「溥心畬張大千會面百年特展」中，您特別拍攝了這幅由<strong>故宮博物院珍藏</strong>的張大千1948年工筆花鳥代表作<strong>《連理雙鴿》</strong>及其展簽（<code>IMG_8697.jpeg</code>、<code>IMG_8698.jpeg</code>）。
+            </p>
+            <blockquote class="poem-blockquote">
+              「雨逐晴呼事可疑，君看比翼更連枝。<br>
+              一生相守無離別，省識人間愛與痴。」<br>
+              <span style="font-size:0.9rem; font-weight:400; color:var(--ink-secondary);">—— 戊子（1948）三月，大千居士，爰。</span>
+            </blockquote>
+            <p style="font-size:0.95rem; color:var(--ink-secondary); line-height:1.85;">
+              <strong>藝術與歷史解讀：</strong>民間素有「天將雨則雄逐雌，天將晴則雌呼雄」之說，張大千反用其意，繪交枝古木（連理枝）之上，兩隻白鴿相偎相依。白鴿以極精妙的宋人院體雙鉤白粉暈染，羽毛蓬鬆溫潤、眼神柔和；枝幹則以書法骨力寫出蒼勁古拙之態，綠葉濃淡相宜。這幅作於1948年春天（大千與心畬各自離別大陸前夕）的傑作，既展現了大千自敦煌歸來後兼融宋代院體工筆與文人寫意的巔峰造詣，亦在百年後的恭王府展廳中，映照出人世間最珍貴的相守與知己深情。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: All 16 On-Site Photos Archive with Rich Commentary & Transcriptions -->
+  <section class="section" id="photo-archive">
+    <div class="section-header">
+      <span class="section-kicker">ON-SITE PHOTOGRAPHIC ARCHIVE · 檔案16幅實拍照片深度圖志</span>
+      <h2 class="section-title">北京恭王府16幅現場實拍影像：歷史解讀與原碑展板全文錄文</h2>
+      <p class="section-desc">
+        以下將「北京恭王府」實拍檔案中的全部 <strong>16 幅現場照片</strong> 按歷史脈絡分為四大篇章，
+        逐一附上<strong>具有歷史縱深感的文字介紹</strong>以及<strong>展板/碑刻原文校錄</strong>。點擊任一照片即可開啟高清燈箱放大與旋轉檢視。
+      </p>
+    </div>
+
+    <div class="gallery-controls">
+      <button class="filter-btn active" onclick="filterGallery('all', this)">全部實拍檔案 (16)</button>
+      <button class="filter-btn" onclick="filterGallery('mansion', this)">王府總綱與薩滿禮制 (2)</button>
+      <button class="filter-btn" onclick="filterGallery('peerage', this)">清代封爵與京城王府分布 (6)</button>
+      <button class="filter-btn" onclick="filterGallery('garden', this)">萃錦園「獨樂峰」光影 (3)</button>
+      <button class="filter-btn" onclick="filterGallery('exhibition', this)">樂道堂「南張北溥」百年特展 (5)</button>
+    </div>
+
+    <div class="photo-grid" id="photoGrid">
+
+      <!-- 1. IMG_8623.jpeg -->
+      <article class="photo-card" data-category="mansion">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8623.jpeg', 'IMG_8623.jpeg · 恭王府中英韓三語總導覽碑與國保石碑', '始建於乾隆四十一年（1776年），總佔地面積約6萬平方米，1982年列為全國重點文物保護單位。')">
+          <img src="images/IMG_8623.jpeg" alt="恭王府總導覽碑" loading="lazy" />
+          <span class="photo-file-tag">IMG_8623.jpeg</span>
+          <span class="photo-cat-tag">王府總綱</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">一、恭王府總覽碑與全國重點文物保護單位石碑</h3>
+          <p class="photo-narrative">
+            佇立於恭王府宮門前的這座黃銅與漢白玉導覽碑，是走入這座「半部清朝史」殿堂的開篇序曲。碑文以中、英、韓三語銘記了這座始建於乾隆四十一年（1776年）的王府傳奇：它先後迎來乾隆朝權傾天下的大學士<strong>和珅</strong>與晚清同治朝議政王<strong>恭親王奕訢</strong>兩位深刻改變大清國運的主人。左下方緊鄰的則是1982年2月23日由國務院立下的「全國重點文物保護單位：恭王府及花園」漢白玉石碑，見證了周恩來總理生前殷切囑託後，恭王府由大雜院重獲新生的歷史轉折。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看碑刻原文完整錄文</summary>
+            <p>【恭王府 Prince Gong's Mansion】
+恭王府是中國現存王府中保存最完整的王府，始建於乾隆四十一年（1776年）。府中曾有兩位曾聲名顯赫、權傾一時：一為乾隆皇帝寵臣大學士和珅，一為同治皇帝的議政王恭親王奕訢。恭王府由於恭親王奕訢的入住而得名。
+恭王府由府邸、花園兩部分組成，總佔地面積約6萬平方米，其中府邸佔地3.2萬平方米，花園佔地2.8萬平方米。1982年被列為全國重點文物保護單位。
+府邸為三路五進院落，建築規模精湛而宏偉。中路建築屋頂是綠色琉璃瓦，以明示僅次於皇宮的親王府建築規制。花園又名「萃錦園」，意為集眾芳之薈萃、錦繡之精美，成一代之名園。整體佈局是三面環山，內有40餘處景觀與景點，分屬於東中西三路，徜徉於園中猶如漫步在山水之間。
+恭王府邸及花園積澱著歷史的年輪，蘊涵著清代王府文化的精深與璀璨。「一座恭王府，半部清朝史」，便是其真實寫照。
+（下附石碑：全國重點文物保護單位 恭王府及花園 中華人民共和國國務院 一九八二年二月二十三日公布）</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 2. IMG_8631.jpeg -->
+      <article class="photo-card" data-category="mansion">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8631.jpeg', 'IMG_8631.jpeg · 嘉樂堂（Jiale Hall）薩滿神殿導覽牌', '清代王府中軸線後殿，仿紫禁城坤寧宮規制，為舉行薩滿教祭祀與王爺合婚大禮之所。')">
+          <img src="images/IMG_8631.jpeg" alt="嘉樂堂導覽牌" loading="lazy" />
+          <span class="photo-file-tag">IMG_8631.jpeg</span>
+          <span class="photo-cat-tag">薩滿禮制</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">二、嘉樂堂：滿洲皇族薩滿祭祀與王府大婚的神聖殿堂</h3>
+          <p class="photo-narrative">
+            位於恭王府中軸線最後一進的正殿<strong>「嘉樂堂」</strong>，是理解滿清入關後如何維繫民族信仰與皇家禮制的關鍵空間。滿族發祥於白山黑水，傳統宗教為<strong>薩滿教（Shamanism）</strong>；入關定鼎北京後，紫禁城將後三宮之末的<strong>坤寧宮</strong>改造成皇家薩滿祭神場所，並在東暖閣設皇帝大婚洞房。恭王府中路的嘉樂堂正是嚴格仿效坤寧宮而建的小型神殿——平日裡供奉滿族祖先與薩滿神位、殺豬煮肉舉行「跳神」祭祀；當王爺或世子（襲爵人）迎娶福晉時，更在神殿東側暖閣舉行神聖的「合婚」大禮。殿額「嘉樂堂」三字相傳為乾隆帝賜予和珅之匾，取《詩經·大雅·假樂》「假（嘉）樂君子，顯顯令德」之意。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看導覽牌原文完整錄文</summary>
+            <p>【嘉樂堂 Jiale Hall】
+清代王府主路都建有神殿，為王府舉行薩滿教祭祀儀式的場所。滿族的傳統宗教為薩滿教，滿族入關後，把薩滿教祭祀作為皇家的一種重要禮儀。紫禁城內的神殿為坤寧宮，王府的神殿仿效坤寧宮。王爺及襲爵人結婚時在神殿東側的房間合婚。恭王府神殿的門頭上懸掛「嘉樂堂」匾額，因此把此殿稱作嘉樂堂。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 3. IMG_8626.jpeg -->
+      <article class="photo-card" data-category="peerage">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8626.jpeg', 'IMG_8626.jpeg · 封爵制度的確立', '天聰九年（1635）定族名滿洲，崇德元年（1636）定國號大清，確立「封爵不賜土」國策。')">
+          <img src="images/IMG_8626.jpeg" alt="封爵制度的確立展板" loading="lazy" />
+          <span class="photo-file-tag">IMG_8626.jpeg</span>
+          <span class="photo-cat-tag">清代封爵制</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">三、封爵制度的確立：「封爵不賜土」如何塑造京城王府文化？</h3>
+          <p class="photo-narrative">
+            這塊木質雕花匾額形制的展板，道出了清代王府制度的政治根源。皇太極於天聰九年（1635）廢除女真舊稱、定族名為「滿洲」，次年（崇德元年，1636）改元稱帝、定國號為「大清」，開始大封有功宗室。入關定都北京後，清廷深刻反思明朝分封藩王於全國各地（既耗空國庫祿米，又屢釀靖難、寧王、宸濠之亂）的弊病，確立了極具政治智慧的<strong>「封爵不賜土」</strong>政策——所有受封的親王、郡王、貝勒、貝子一律在京師賜予王府居住，非奉皇命不得擅自離京半步！天潢貴胄齊聚帝都，遂催生出繁盛絕倫的北京王府建築、戲曲、書畫與飲食文化。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看展板原文完整錄文</summary>
+            <p>【封爵制度的確立】
+天聰九年（1635年），清太宗皇太極定族名為滿洲，崇德元年（1636年）定國號為大清，開始對有功的宗室正式封爵。清朝定都北京後，逐步完善了封爵制度。宗室取得爵位有四種途徑，即功封、恩封、襲封、考封。封爵的宗室通過府邸、服飾、器用等來體現其尊貴的身份與地位。清朝吸取明朝封藩建國的教訓，對宗室採取封爵不賜土的政策，只在京城賜府，不許受封的宗室擅自離京，因而所有的王公均聚居京城之內。在北京居住的王公貴族，以王府為中心，形成了特有的王府文化。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 4. IMG_8627.jpeg -->
+      <article class="photo-card" data-category="peerage">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8627.jpeg', 'IMG_8627.jpeg · 清世祖順治皇帝像展簽', '順治元年（1644）遷都北京，順治六年（1649）完善宗室封爵制度。')">
+          <img src="images/IMG_8627.jpeg" alt="清世祖順治皇帝像展簽" loading="lazy" />
+          <span class="photo-file-tag">IMG_8627.jpeg</span>
+          <span class="photo-cat-tag">清代封爵制</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">四、清世祖順治皇帝像展簽：從盛京入主中原與京師王府肇興</h3>
+          <p class="photo-narrative">
+            順治元年（1644年），年僅六歲的清世祖順治皇帝福臨在叔父攝政王多爾衮輔佐下，由盛京（瀋陽）遷都北京，八旗宗室王公隨龍入關。順治六年（1649年），清廷正式釐定宗室十二等爵位體系，將明代皇親國戚遺留的宅院或內城官地分賜諸王，開啟了長達兩百六十餘年的京師王府營建史。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看展簽原文完整錄文</summary>
+            <p>【清世祖順治皇帝像】
+複製品。原畫藏故宮博物院
+順治元年（1644年），順治皇帝從盛京（瀋陽）遷都北京，宗室王公隨之入京。順治六年（1649年）完善宗室封爵制度。順治皇帝廣為封爵，使京師成為王公的聚集地，促成了京師王府文化的形成和發展。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 5. IMG_8628.jpeg -->
+      <article class="photo-card" data-category="peerage">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8628.jpeg', 'IMG_8628.jpeg · 清朝宗室十二等級爵位表', '詳列第一等和碩親王至第十二等奉恩將軍之降襲與「鐵帽子王」世襲罔替規則。')">
+          <img src="images/IMG_8628.jpeg" alt="清朝宗室十二等級爵位表" loading="lazy" />
+          <span class="photo-file-tag">IMG_8628.jpeg</span>
+          <span class="photo-cat-tag">清代封爵制</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">五、清朝宗室十二等級爵位表：嚴密的「推恩降襲」與「鐵帽子王」</h3>
+          <p class="photo-narrative">
+            清代宗室爵位分為十二等：<strong>和碩親王、多羅郡王、多羅貝勒、固山貝子、奉恩鎮國公、奉恩輔國公、不入八分鎮國公、不入八分輔國公、鎮國將軍、輔國將軍、奉國將軍、奉恩將軍</strong>。為防止皇族人口繁衍導致親王泛濫，清廷規定除開國八大功王及中興四王（怡親王允祥、恭親王奕訢、醇親王奕譞、慶親王奕劻）享<strong>「世襲罔替」（俗稱鐵帽子王，代代承襲原爵）</strong>外，其餘宗室子孫每繼承一代必須<strong>降低一等襲爵</strong>。這也正是為何第二代主人永璘的子孫降襲至輔國公後，必須在道光三十年（1850）交出王府的制度原因！
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看展板表格完整錄文</summary>
+            <p>【清朝宗室十二等級爵位表】
+• 第一等：和碩親王｜代降一等，降襲至鎮國公為世職｜備註：「鐵帽子」親王爵位世襲罔替
+• 第二等：多羅郡王｜代降一等，降襲至輔國公為世職｜備註：「鐵帽子」郡王爵位世襲罔替
+• 第三等：多羅貝勒｜代降一等，降襲至不入八分鎮國公為世職
+• 第四等：固山貝子｜代降一等，降襲至不入八分輔國公為世職
+• 第五等：奉恩鎮國公｜代降一等，降襲至鎮國將軍為世職
+• 第六等：奉恩輔國公｜代降一等，降襲至輔國將軍為世職
+• 第七等：不入八分鎮國公｜代降一等，降襲至奉國將軍為世職
+• 第八等：不入八分輔國公｜代降一等，降襲至奉恩將軍為世職
+• 第九等：鎮國將軍
+• 第十等：輔國將軍
+• 第十一等：奉國將軍
+• 第十二等：奉恩將軍</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 6. IMG_8629.jpeg -->
+      <article class="photo-card" data-category="peerage">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8629.jpeg', 'IMG_8629.jpeg · 京城王府的分布', '清初拱衛皇城東西，晚清匯聚什剎海，恭親王、醇親王、慶親王三大鐵帽子王府比鄰而居。')">
+          <img src="images/IMG_8629.jpeg" alt="京城王府的分布展板" loading="lazy" />
+          <span class="photo-file-tag">IMG_8629.jpeg</span>
+          <span class="photo-cat-tag">王府地理</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">六、京城王府的分布：從皇城東西翼到什剎海晚清權力核心</h3>
+          <p class="photo-narrative">
+            這塊展板揭示了清代北京王府空間佈局的兩大演變階段：<strong>第一階段（順治朝）</strong>以軍事拱衛紫禁城為核心，攝政王多爾衮的睿親王府建於東華門外南池子，大貝勒代善的禮親王府建於西華門外西皇城根，呈東西夾輔之勢；<strong>第二階段（乾隆至晚清）</strong>，隨著內城空間飽和與江南園林審美興起，擁有活水湖泊與大片綠蔭的<strong>什剎海地區</strong>成為王公爭相營建園林府邸的寶地。晚清權傾朝野的三大「鐵帽子王」——<strong>恭親王奕訢、醇親王奕譞、慶親王奕劻</strong>的王府全部坐落於什剎海畔，使這片水岸成為晚清最後五十年的帝國心臟。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看展板原文完整錄文</summary>
+            <p>【京城王府的分布】
+清朝定都北京後，將內城的漢人全部遷到外城，內城被旗人佔據，除特例外，王公府第全部建在內城。順治時期，最顯赫的睿親王府和禮親王府分別建在皇城的東、西兩側。為上朝方便，一般王公府第都建在皇城周圍不遠的地方。晚清時期，風景秀麗的什剎海地區成為顯赫王爺的聚居地，著名的晚清三大「鐵帽子」王——恭親王、醇親王和慶親王的王府均位於這一地區。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 7. IMG_8630.jpeg -->
+      <article class="photo-card" data-category="peerage">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8630.jpeg', 'IMG_8630.jpeg · 清末北京主要王府分布示意圖', '清晰標示紫禁城外圍與什剎海北岸的恭王府、醇親王府、慶王府、濤貝勒府等位置。')">
+          <img src="images/IMG_8630.jpeg" alt="清末北京主要王府分布示意圖" loading="lazy" />
+          <span class="photo-file-tag">IMG_8630.jpeg</span>
+          <span class="photo-cat-tag">王府地圖</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">七、清末北京主要王府分布示意圖：一眼看懂什剎海王府群落</h3>
+          <p class="photo-narrative">
+            在這幅珍貴的《清末北京主要王府分布示意圖》上，可以看到北京「凸」字形內外城結構與中軸線紫禁城、西苑三海（北海、中海、南海）及北側<strong>什剎海（前海、後海、西海/積水潭）</strong>的水系脈絡。在什剎海西岸與北岸，密集分布著<strong>恭王府、醇親王府（北府）、濤貝勒府、慶王府、羅王府、棍貝子府、莊王府</strong>；而在皇城東西兩側，則分布著<strong>禮王府、鄭王府、克勤郡王府、定王府、恂貝勒府、那王府、孚王府（九爺府）、豫王府、睿王府</strong>等。如今，唯有恭王府完整保留了王府與花園的宏大歷史風貌。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看地圖標註要點</summary>
+            <p>【清末北京主要王府分布示意圖】
+• 什剎海片區：恭王府、醇親王府、濤貝勒府、慶王府、羅王府、棍貝子府、莊王府、那王府
+• 西城片區：禮王府、定王府、鄭王府、克勤郡王府、順承郡王府、洵貝勒府
+• 東城片區：和敬公主府、孚王府（第二代怡王府）、睿親王新府、豫王府、肅親王府、淳親王府</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 8. IMG_8625.jpeg -->
+      <article class="photo-card" data-category="peerage">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8625.jpeg', 'IMG_8625.jpeg · 鎮國公載澤的夫人和美國公使康格的夫人', '晚清出洋考察五大臣之首載澤的夫人靜榮，在府邸接待美國駐華公使康格夫人 Sarah Pike Conger。')">
+          <img src="images/IMG_8625.jpeg" alt="鎮國公載澤的夫人和美國公使康格的夫人" loading="lazy" />
+          <span class="photo-file-tag">IMG_8625.jpeg</span>
+          <span class="photo-cat-tag">晚清皇族外交</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">八、鎮國公載澤夫人與美國公使康格夫人：走入王府的近代西方使節</h3>
+          <p class="photo-narrative">
+            這幀極具歷史張力的黑白老照片，定格了20世紀初（約1902–1905年間）大清皇族王府內的一場跨文化交會。畫面右側頭戴大拉翅（旗頭）、身著團花錦緞旗袍與花盆底鞋的貴婦，是<strong>奉恩鎮國公載澤的夫人葉赫那拉·靜榮</strong>（慈禧太后親姪女、光緒帝隆裕皇后之胞妹）；左側頭戴西洋羽毛禮帽、身穿西式套裙的則是美國駐華公使康格（Edwin H. Conger）的夫人 <strong>Sarah Pike Conger</strong>；中間站立著身著滿族坎肩的王府幼童。照片生動折射出庚子事變後，原本深鎖高牆的滿清王府開始打開大門接待外國使節夫人，而載澤本人也在1905年率領五大臣出洋考察憲政，推動清末新政改革。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看展簽原文完整錄文</summary>
+            <p>【鎮國公載澤的夫人和美國公使康格的夫人】
+鎮國公載澤是晚清外交活動中的活躍人物，曾受朝廷委派出國考察憲政。他與西方使節交往頗多。這是載澤的夫人在家裡接待來訪的美國公使康格的夫人。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 9. IMG_8692.jpeg -->
+      <article class="photo-card" data-category="garden">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8692.jpeg', 'IMG_8692.jpeg · 萃錦園「獨樂峰」仰望視角', '高約5米的北太湖石孤賞石，位於西洋門內中軸線上，兼具「瘦、皺、漏、透」與障景之妙。')">
+          <img src="images/IMG_8692.jpeg" alt="萃錦園獨樂峰仰望" loading="lazy" />
+          <span class="photo-file-tag">IMG_8692.jpeg</span>
+          <span class="photo-cat-tag">萃錦園名石</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">九、萃錦園「獨樂峰」（其一）：移天縮地、欲揚先抑的造園奇石</h3>
+          <p class="photo-narrative">
+            步入恭王府後花園（萃錦園）漢白玉西洋門，迎面矗立的便是這座高達5米的巨型北太湖石孤賞峰——<strong>「獨樂峰」</strong>。在中國古典園林美學中，它扮演著「影壁 / 障景」的絕妙角色：使人進門時不致將園內景色一覽無遺，必須繞石而行，豁然開朗見蝠池碧水。石上隱刻「獨樂峰」三字（一說和珅取「一人獨樂」之意，一說奕訢取北宋司馬光《獨樂園記》典故）。這幅照片中，秋日陽光正從石頂天然石洞中透射而出，石下遊人駐足仰望，古韻盎然。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看景觀美學賞析要點</summary>
+            <p>【萃錦園 · 獨樂峰】
+• 材質與高度：北太湖石，通高約5米，下承疊石基座。
+• 造園功能：位於西洋門內正對面，兼具「障景（欲揚先抑）」、「框景」與風水「影壁」三重功能。
+• 奇石四美：完全契合宋代米芾品石標準——「瘦（壁立孤聳）、皺（紋理蒼古）、漏（孔穴相通）、透（日光穿射）」。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 10. IMG_8693.jpeg -->
+      <article class="photo-card" data-category="garden">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8693.jpeg', 'IMG_8693.jpeg · 獨樂峰「金光穿洞」絕美瞬間', '陽光穿過太湖石頂端石孔化作璀璨星芒，展現古典園林「透、漏」之極致神韻。')">
+          <img src="images/IMG_8693.jpeg" alt="獨樂峰金光穿洞" loading="lazy" />
+          <span class="photo-file-tag">IMG_8693.jpeg</span>
+          <span class="photo-cat-tag">萃錦園奇觀</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">十、萃錦園「獨樂峰」（其二）：石孔穿日、星芒璀璨的靈動瞬間</h3>
+          <p class="photo-narrative">
+            這幅實拍堪稱神來之筆！鏡頭精準捕捉到正午驕陽恰從「獨樂峰」上方的天然孔穴中穿透而出，化作一輪耀眼的金色星芒，將太湖石蒼勁嶙峋的肌理映照得宛如仙山瓊閣。古人賞石講究「石令人古，水令人遠」，百年前和珅、永璘、奕訢，乃至在園中漫步賦詩的溥心畬與張大千，都曾仰望過這同一束穿過太湖石孔的京華秋光。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看「獨樂峰」造型玄機</summary>
+            <p>【獨樂峰「一石三看」之趣】
+恭王府「獨樂峰」從不同角度觀賞各有奇趣：
+1. 自南向北正看：如一尾昂首躍龍門的錦鯉，又似拔地而起的靈芝奇峰；
+2. 自北向南回看：石體微傾，形同懷抱幼子的慈母（又稱「送子觀音石」）；
+3. 仰觀穿日：石頂天然圓孔貫穿南北，晴日陽光穿洞而過，取「慧眼通天、鴻運當頭」之吉兆。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 11. IMG_8694.jpeg -->
+      <article class="photo-card" data-category="garden">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8694.jpeg', 'IMG_8694.jpeg · 獨樂峰與古木秋色全景', '高聳奇峰與百年古槐、青石蹬道相映成趣，當年溥心畬與張大千常於此漫步品石。')">
+          <img src="images/IMG_8694.jpeg" alt="獨樂峰與古木秋色" loading="lazy" />
+          <span class="photo-file-tag">IMG_8694.jpeg</span>
+          <span class="photo-cat-tag">萃錦園秋色</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">十一、萃錦園「獨樂峰」（其三）：古木參天與奇石假山的皇家山林</h3>
+          <p class="photo-narrative">
+            從側面視角仰視「獨樂峰」，可見奇石高聳於青石疊山與參天古槐、銀杏金黃秋葉之間。當年張大千與溥心畬皆是愛石成痴之人（張大千晚年摩耶精舍與溥心畬寒玉堂畫作中常見此類瘦削奇崛的太湖石），萃錦園中這座「獨樂峰」與周遭假山，正是二人在寒玉堂揮毫作奇石高士圖時最鮮活的寫生粉本。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看萃錦園與文人畫奇石淵源</summary>
+            <p>【萃錦園奇石與「南張北溥」畫境】
+1928年至1937年間，溥心畬居於萃錦園，張大千屢次造訪。兩人在合作冊頁中常一人畫太湖奇石、一人補竹蘭高士，其筆下瘦硬嶙峋、孔竅玲瓏的湖石造型，皆深得萃錦園「獨樂峰」之神髓。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 12. IMG_8695.jpeg -->
+      <article class="photo-card" data-category="exhibition">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8695.jpeg', 'IMG_8695.jpeg · 畫史中的「南北」並稱（樂道堂特展展板）', '從董其昌《畫禪室隨筆》南北宗論，到「南陳北崔」、「南董北米」與近代「南張北溥」。')">
+          <img src="images/IMG_8695.jpeg" alt="畫史中的南北並稱展板" loading="lazy" />
+          <span class="photo-file-tag">IMG_8695.jpeg</span>
+          <span class="photo-cat-tag">百年特展導言</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">十二、畫史中的「南北」並稱：從董其昌南北宗到「南張北溥」的美學座標</h3>
+          <p class="photo-narrative">
+            這塊石青底色的特展總綱展板，將「南張北溥」置於中國千年繪畫史的宏大座標中加以剖析：自明代董其昌在《畫禪室隨筆》以禪宗南北二宗比喻山水畫（南宗尊王維，尚水墨渲染與文人意趣；北宗尊李思訓父子，尚青綠工筆與院體格法），後世遂有明末人物畫「南陳（洪綬）北崔（子忠）」、晚明書壇「南董（其昌）北米（萬鍾）」，直至20世紀30年代享譽海內的<strong>「南張（大千）北溥（心畬）」</strong>。展板深刻指出：南北之分不僅在地域風物（江南溫潤靈秀 vs. 北方山川雄渾）與身份階層（在野文人 vs. 宮廷院體/皇室王孫），更在筆墨宗趣的互補與共鳴。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看展板原文完整錄文</summary>
+            <p>【畫史中的「南北」並稱】
+南北並稱是中國繪畫史的經典品評範式。
+明代董其昌在《畫禪室隨筆》中以禪喻畫，將山水畫脈分為南北二宗：南宗尊王維為祖，尚水墨渲染、文人意趣，重性靈抒發；北宗以李思訓父子為宗，尚青綠工筆、院體格法，重功力雕琢，由此構建起畫史南北二元的審美座標系。
+沿此品評傳統，後世形成多組標杆性並稱：明末人物畫領域有「南陳北崔」，浙江陳洪綬與山東崔子忠以高古奇崛的形式風格並稱，記於清代姜紹書《無聲詩史》、朱彝尊《曝書亭集·崔子忠陳洪綬合傳》；書法領域有「南董北米」，華亭董其昌與順天米萬鍾共執晚明書壇牛耳，首見於《明史·董其昌傳》，明代朱謀垔《書史會要續編》亦載「時有南董北米之譽」。至近現代，除了富有聲名的「南張北溥」以外，尚有「南吳（昌碩）北齊（白石）」「南吳（湖帆）北溥（心畬）」「南張（大千）北溥（心畬）東吳倩（湖帆）」等。
+南北並稱格局的形成，根源有三：一為地理文化分野，江南水鄉溫潤靈秀，北方山川雄渾厚重，自然風物塑造了不同的筆墨氣質；二為身份階層差異，南方多在野文人畫家，北方多宮廷院體畫家，一主野逸一主富貴；三為禪宗思想的投射。其所指的核心，在於風格與審美：南派尚水墨、寫意、韻致，主文人畫傳統，追求平淡天真；北派尚青綠、工筆、功力，主院體畫傳統，講求精工法度。南北之分不完全在畫家籍貫，而在筆墨宗趣與傳承脈絡，是中國畫學中一對重要的對偶範疇。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 13. IMG_8696.jpeg -->
+      <article class="photo-card" data-category="exhibition">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8696.jpeg', 'IMG_8696.jpeg · 張大千的繪畫藝術總論', '由石濤、八大上溯宋元，中年臨習敦煌壁畫，晚年創潑墨潑彩，兼具北宗骨力與南宗意韻。')">
+          <img src="images/IMG_8696.jpeg" alt="張大千的繪畫展板" loading="lazy" />
+          <span class="photo-file-tag">IMG_8696.jpeg</span>
+          <span class="photo-cat-tag">大千畫學</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">十三、張大千的繪畫總論：貫通南北二宗、從敦煌重彩到潑墨潑彩</h3>
+          <p class="photo-narrative">
+            這塊做成宣紙折角冊頁造型的展板，精闢概括了張大千橫跨百年的藝術演進三部曲：<strong>早年「師古人」</strong>，由明清徐渭、石濤、八大山人上溯宋元董源、巨然、李唐、范寬；<strong>中年「返唐宋」</strong>，1941–1943年率弟子遠赴莫高窟面壁臨摹276幅隋唐敦煌壁畫，激活了中國早期高古重彩傳統；<strong>晚年「開新境」</strong>，在目疾之後獨創<strong>潑墨潑彩</strong>之法，將水墨之骨與石青石綠之魂融為一體，真正打通了北宗之雄強骨力與南宗之空靈意韻。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看展板原文完整錄文</summary>
+            <p>【張大千的繪畫】
+張大千的繪畫，根植中國傳統畫學體系，是20世紀中國畫筆墨語言的集大成者之一。其早年由徐渭、石濤、八大山人入手，遍臨明清諸家，後上溯宋元名跡，取法董源、巨然、李唐、范寬筆法，臨摹仿古功力深厚；中年臨習敦煌壁畫，對美術遺址中的早期傳統做了再發現和重新激活。
+其筆墨以書入畫，線條兼具碑之雄強與帖之飄逸，勾勒皴擦頓挫有力，水墨乾濕層次通透；山水章法開合有度，造境雄奇開闊，兼具北宗之骨力與南宗之意韻。晚年創潑墨潑彩之法，以水墨為骨，青綠賦彩，墨色氤氳交融，虛實相生，突破青綠山水既有筆墨範式，拓展了中國畫本體的表現邊界。其花鳥兼取徐熙、黃筌之長，人物取法唐寅、陳洪綬，皆能入古出新。
+張大千堅守中國畫筆墨正脈，化古開今，開創出雄健瑰麗的個人藝術面貌。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 14. IMG_8699.jpeg -->
+      <article class="photo-card" data-category="exhibition">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8699.jpeg', 'IMG_8699.jpeg · 張大千的早期軌跡', '1919年拜入曾熙、李瑞清門下，二兄張善孖引路，李祖韓、李秋君相扶，登臨黃山寫生。')">
+          <img src="images/IMG_8699.jpeg" alt="張大千的早期軌跡展板" loading="lazy" />
+          <span class="photo-file-tag">IMG_8699.jpeg</span>
+          <span class="photo-cat-tag">早期軌跡</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">十四、張大千的早期軌跡：名師曾李授藝、兄長引路與黃山師造化</h3>
+          <p class="photo-narrative">
+            張大千是如何在二十多歲便能與恭王府舊王孫溥心畬分庭抗禮的？這塊展板揭曉了答案：<strong>1919年</strong>，20歲的張大千從日本留學歸滬，先後拜入清末碑學大家<strong>曾熙（農髯）</strong>與<strong>李瑞清（梅庵）</strong>門下（「大千」法號即出家百日時定名，後由曾熙改名「張爰」），苦練石濤與八大山人至以假亂真；隨後在二兄「虎痴」<strong>張善孖</strong>以及上海名門藏家<strong>李祖韓、李秋君</strong>兄妹（大千一生紅顏知己）傾力襄助下，在秋英會雅集一鳴驚人，並於1927–1936年間三登黃山寫生，為1928年走入恭王府與溥心畬訂交奠定了深厚底氣。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看展板原文完整錄文</summary>
+            <p>【張大千的早期軌跡】
+1919年，張大千拜入曾熙、李瑞清門下，以金石書法為根基，研習石濤、八大山人作品，筆墨精湛可以假亂真，使他在京滬兩地聲名日盛。隨後，他在秋英會雅集中嶄露鋒芒，首場個展作品售罄。1929年，他與兄長參展全國美術展覽會，穩固了滬上新銳畫家的地位。
+學藝過程中，兄長張善孖為其引路，李祖韓、李秋君兄妹等滬上資深藏家鼎力相扶，不僅提供安穩居所、古畫觀摩資源與推廣助力，更帶領他深入北京、上海書畫圈層。依託這一文脈與圈層優勢，張大千積極投身各類書畫雅集與藝文社團，廣交南北名家，積累聲望與人脈，為其拓寬了早期藝術道路。
+在精研古法的同時，張大千數次登臨黃山寫生，直面真山真水汲取靈感，豐富了從「師古人」到「師造化」的創作過程。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 15. IMG_8697.jpeg -->
+      <article class="photo-card" data-category="exhibition">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8697.jpeg', 'IMG_8697.jpeg · 張大千《連理雙鴿》作品展簽', '1948年（戊子三月），縱141厘米、橫70厘米，故宮博物院藏。')">
+          <img src="images/IMG_8697.jpeg" alt="連理雙鴿展簽" loading="lazy" />
+          <span class="photo-file-tag">IMG_8697.jpeg</span>
+          <span class="photo-cat-tag">故宮藏品展簽</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">十五、張大千《連理雙鴿》展簽：戊子三月（1948）題詩釋讀</h3>
+          <p class="photo-narrative">
+            這張墨綠底色的展簽，完整記錄了故宮博物院借展至恭王府樂道堂的張大千名作《連理雙鴿》的基本規格與畫上自題七言絕句。1948年（戊子年）春，年屆五十的張大千正處於工筆院體花鳥的巔峰期，詩中「一生相守無離別，省識人間愛與痴」二十八字，清麗婉轉而又深情款款。
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看展簽原文完整錄文</summary>
+            <p>【連理雙鴿】
+張大千
+縱141厘米 橫70厘米
+1948年
+故宮博物院藏
+
+雨逐晴呼事可疑，君看比翼更連枝。
+一生相守無離別，省識人間愛與痴。
+戊子三月，大千居士，爰。</p>
+          </details>
+        </div>
+      </article>
+
+      <!-- 16. IMG_8698.jpeg -->
+      <article class="photo-card" data-category="exhibition">
+        <div class="photo-thumb-wrap" onclick="openLightbox('images/IMG_8698.jpeg', 'IMG_8698.jpeg · 張大千《連理雙鴿》1948年故宮藏真跡實拍', '交枝古木與雙棲白鴿，盡顯宋人黃筌、宋徽宗院體雙鉤設色與文人書法骨力之交融。')">
+          <img src="images/IMG_8698.jpeg" class="contain-mode" alt="張大千連理雙鴿真跡" loading="lazy" />
+          <span class="photo-file-tag">IMG_8698.jpeg</span>
+          <span class="photo-cat-tag">名作真跡實拍</span>
+          <span class="photo-zoom-hint">🔍 點擊放大</span>
+        </div>
+        <div class="photo-body">
+          <h3 class="photo-title">十六、張大千《連理雙鴿》真跡全幅實拍：宋院遺風與百年翰墨回響</h3>
+          <p class="photo-narrative">
+            這是您在恭王府樂道堂展廳內拍攝的故宮博物院藏《連理雙鴿》真跡全圖。畫面右下方兩幹古枝交纏成「連理」之態，用筆蒼勁老辣，墨色乾濕濃淡富有金石篆籀之氣；枝頭綠葉以汁綠與花青層層罩染；畫面中心一對雪白瑞鴿並肩棲於枝頭，羽毛以極細膩的白色水粉絲毛暈染，眼眸點睛傳神，尾羽與翼尖微露墨韻；左上角則以跌宕瀟灑的「大千體」行書題寫七絕並鈐朱白文印。此作在恭王府樂道堂展出，恰與溥心畬的北宗院體工筆遙相呼應，堪稱「南張北溥」百年重逢的最美見證！
+          </p>
+          <details class="photo-transcription">
+            <summary>📜 展開查看畫作技法與鈐印賞析</summary>
+            <p>【《連理雙鴿》技法賞析】
+• 構圖：自右下角起勢，斜出一枝橫貫畫心，左上角留白題詩，疏密有致、虛實相生。
+• 雙鴿畫法：承襲五代黃筌「黃家富貴」及北宋徽宗趙佶《桃鳩圖》院體精髓，先以淡墨細線雙鉤，再以白粉分染絲毛，呈現羽毛柔順豐盈之質感。
+• 枝葉與題款：樹幹兼具徐渭、陳洪綬之奇崛骨力，左上角題詩書風融合《瘞鶴銘》與黃庭堅體勢，並鈐「張爰之印」、「大千居士」印。</p>
+          </details>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox" onclick="closeLightboxOnBg(event)">
+    <div class="lightbox-toolbar">
+      <button class="lb-btn" onclick="rotateLightboxImg(-90)">↺ 左旋 90°</button>
+      <button class="lb-btn" onclick="rotateLightboxImg(90)">↻ 右旋 90°</button>
+      <button class="lb-btn" onclick="zoomLightboxImg(0.25)">＋ 放大</button>
+      <button class="lb-btn" onclick="zoomLightboxImg(-0.25)">－ 縮小</button>
+      <button class="lb-btn" onclick="closeLightbox()">✕ 關閉</button>
+    </div>
+    <div class="lightbox-img-container">
+      <img id="lightboxImg" src="" alt="放大預覽" />
+    </div>
+    <div class="lightbox-caption">
+      <h4 id="lightboxTitle"></h4>
+      <p id="lightboxDesc"></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-quote">「一座恭王府，半部清朝史；百年寒玉堂，千秋南張北溥。」</div>
+    <p>北京恭王府（Prince Gong's Mansion）實拍影像與歷史文化數位專題 · 依據現場實拍16幅檔案與文博史料精編</p>
+    <p style="margin-top:6px; font-size:0.82rem; color:#857b6c;">
+      涵蓋：和珅延禧堂／錫晉齋（1776） · 慶親王永璘（1799） · 恭親王奕訢與萃錦園（1852） · 溥心畬張大千會面百年特展（1926–2026）
+    </p>
+  </footer>
+
+  <script>
+    // 0. Smooth Anchor Scroll with Dynamic Sticky Navbar Offset
+    document.querySelectorAll('.nav-links a, .nav-brand').forEach(link => {
+      link.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href && href.startsWith('#')) {
+          const target = document.querySelector(href);
+          if (target) {
+            e.preventDefault();
+            if (href === '#top') {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+              const navHeight = document.querySelector('.navbar').offsetHeight;
+              const headerEl = target.querySelector('.section-header') || target;
+              const targetTop = headerEl.getBoundingClientRect().top + window.pageYOffset - navHeight - 24;
+              window.scrollTo({
+                top: Math.max(0, targetTop),
+                behavior: 'smooth'
+              });
+            }
+            history.replaceState(null, null, href);
+          }
+        }
+      });
+    });
+
+    // 1. Era Tabs Switcher
+    function switchEra(index) {
+      const btns = document.querySelectorAll('.era-tab-btn');
+      const cards = document.querySelectorAll('.era-detail-card');
+      btns.forEach((b, i) => b.classList.toggle('active', i === index));
+      cards.forEach((c, i) => c.classList.toggle('active', i === index));
+    }
+
+    // 2. Peerage Table Filter
+    function filterPeerage(tier, btn) {
+      document.querySelectorAll('.peerage-filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const rows = document.querySelectorAll('#peerageTable tbody tr');
+      rows.forEach(row => {
+        if (tier === 'all' || row.dataset.tier === tier) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    }
+
+    // 3. Photo Gallery Filter
+    function filterGallery(cat, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const cards = document.querySelectorAll('#photoGrid .photo-card');
+      cards.forEach(card => {
+        if (cat === 'all' || card.dataset.category === cat) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // 4. Precision Border-Removal, Straightening & Clarity Engine for All 16 Photos
+    const PHOTO_CROP_CONFIG = {
+      'IMG_8623.jpeg': { x1: 0.17, y1: 0.13, x2: 0.83, y2: 0.96, rot: -0.8 }, // 恭王府總覽碑：去除兩側樹叢與地面磚石
+      'IMG_8625.jpeg': { x1: 0.21, y1: 0.03, x2: 0.97, y2: 0.77, rot: 1.2 },  // 載澤夫人與美國公使夫人：去除展櫃玻璃角與牆面邊框
+      'IMG_8626.jpeg': { x1: 0.25, y1: 0.24, x2: 0.75, y2: 0.89, rot: -0.5 }, // 封爵制度的確立：去除外框與白牆背景
+      'IMG_8627.jpeg': { x1: 0.12, y1: 0.33, x2: 0.88, y2: 0.59, rot: -1.0 }, // 清世祖順治皇帝像展簽：去除四周大面積米色牆紙與黑邊
+      'IMG_8628.jpeg': { x1: 0.10, y1: 0.11, x2: 0.90, y2: 0.84, rot: 0.8 },  // 清朝宗室十二等級爵位表：去除四周白牆邊框並擺正
+      'IMG_8629.jpeg': { x1: 0.23, y1: 0.26, x2: 0.77, y2: 0.89, rot: -0.6 }, // 京城王府的分布：去除深色外框與白牆接縫
+      'IMG_8630.jpeg': { x1: 0.20, y1: 0.27, x2: 0.80, y2: 0.78, rot: -0.8 }, // 清末北京主要王府分布示意圖：去除四周大面積灰牆聚焦地圖
+      'IMG_8631.jpeg': { x1: 0.36, y1: 0.19, x2: 0.81, y2: 0.93, rot: 0.5 },  // 嘉樂堂導覽牌：去除左側銅欄杆、草地與右側樹幹、滅火器箱
+      'IMG_8692.jpeg': { x1: 0.06, y1: 0.02, x2: 0.96, y2: 0.91, rot: -0.8 }, // 獨樂峰仰望：擺正石峰並裁去邊緣雜景
+      'IMG_8693.jpeg': { x1: 0.06, y1: 0.02, x2: 0.96, y2: 0.92, rot: -0.8 }, // 獨樂峰金光穿洞：擺正並裁去左下角遊客頭頂
+      'IMG_8694.jpeg': { x1: 0.10, y1: 0.02, x2: 0.95, y2: 0.90, rot: -0.8 }, // 獨樂峰與古木秋色：擺正構圖並去除邊緣雜物
+      'IMG_8695.jpeg': { x1: 0.12, y1: 0.14, x2: 0.89, y2: 0.93, rot: -0.5 }, // 畫史中的南北並稱：去除兩側地磚、屋簷與垃圾桶
+      'IMG_8696.jpeg': { x1: 0.15, y1: 0.10, x2: 0.86, y2: 0.69, rot: -0.6 }, // 張大千的繪畫：去除四周深青色展牆邊框並擺正
+      'IMG_8697.jpeg': { x1: 0.24, y1: 0.23, x2: 0.77, y2: 0.63, rot: 1.4 },  // 連理雙鴿展簽：去除四周灰色布紋牆與黑色畫框邊條
+      'IMG_8698.jpeg': { x1: 0.21, y1: 0.095, x2: 0.74, y2: 0.885, rot: -0.8 }, // 張大千《連理雙鴿》真跡：轉為正向立軸、校正傾斜並去除展廳天花板、綠牆與外框
+      'IMG_8699.jpeg': { x1: 0.10, y1: 0.13, x2: 0.91, y2: 0.80, rot: 0.8 }   // 張大千的早期軌跡：去除下方深色牆面陰影與外框
+    };
+
+    function getCropKey(src) {
+      if (!src) return null;
+      for (const k of Object.keys(PHOTO_CROP_CONFIG)) {
+        if (src.includes(k)) return k;
+      }
+      return null;
+    }
+
+    function applyCropToImage(img, maxW, maxH) {
+      const key = getCropKey(img.getAttribute('src'));
+      if (!key) return;
+      const cfg = PHOTO_CROP_CONFIG[key];
+      const cw = cfg.x2 - cfg.x1;
+      const ch = cfg.y2 - cfg.y1;
+      const ar = (0.75 * cw) / ch; // Upright portrait base aspect ratio is 3024/4032 = 0.75
+
+      let boxW = maxW;
+      let boxH = boxW / ar;
+      if (boxH > maxH) {
+        boxH = maxH;
+        boxW = boxH * ar;
+      }
+
+      let vp = img.parentElement;
+      if (!vp.classList.contains('crop-viewport')) {
+        vp = document.createElement('div');
+        vp.className = 'crop-viewport';
+        img.parentNode.insertBefore(vp, img);
+        vp.appendChild(img);
+      }
+
+      vp.style.width = `${Math.round(boxW)}px`;
+      vp.style.height = `${Math.round(boxH)}px`;
+
+      const scaleFix = Math.abs(cfg.rot) > 0.3 ? 1.035 : 1.01;
+      img.style.width = `${(100 / cw).toFixed(3)}%`;
+      img.style.height = `${(100 / ch).toFixed(3)}%`;
+      img.style.left = `${(-(cfg.x1 / cw) * 100).toFixed(3)}%`;
+      img.style.top = `${(-(cfg.y1 / ch) * 100).toFixed(3)}%`;
+      img.style.transform = `rotate(${cfg.rot}deg) scale(${scaleFix})`;
+    }
+
+    function initAllPhotoCrops() {
+      // 1. Featured Zhang Daqian《連理雙鴿》in section ④
+      const stageImg = document.querySelector('.painting-img-stage img');
+      if (stageImg) {
+        applyCropToImage(stageImg, 460, 540);
+      }
+      // 2. All 16 cards in section ⑤
+      document.querySelectorAll('.photo-thumb-wrap img').forEach(img => {
+        applyCropToImage(img, 350, 336);
+      });
+    }
+
+    window.addEventListener('DOMContentLoaded', initAllPhotoCrops);
+    window.addEventListener('resize', initAllPhotoCrops);
+
+    // 5. Lightbox Viewer with Cropped, Straightened & Zoomable Display
+    let currentRot = 0;
+    let currentScale = 1;
+
+    function openLightbox(src, title, desc) {
+      currentRot = 0;
+      currentScale = 1;
+      const container = document.querySelector('.lightbox-img-container');
+      container.innerHTML = '';
+
+      const img = document.createElement('img');
+      img.id = 'lightboxImg';
+      img.src = src;
+      img.alt = title;
+      container.appendChild(img);
+
+      const maxW = Math.min(window.innerWidth * 0.86, 1000);
+      const maxH = Math.min(window.innerHeight * 0.74, 820);
+      applyCropToImage(img, maxW, maxH);
+
+      const targetEl = img.parentElement.classList.contains('crop-viewport') ? img.parentElement : img;
+      targetEl.id = 'lightboxTarget';
+      targetEl.style.transition = 'transform 0.25s ease';
+      targetEl.style.transform = 'rotate(0deg) scale(1)';
+
+      document.getElementById('lightboxTitle').textContent = title;
+      document.getElementById('lightboxDesc').textContent = desc;
+      document.getElementById('lightbox').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function closeLightboxOnBg(e) {
+      if (e.target.id === 'lightbox' || e.target.classList.contains('lightbox-img-container')) {
+        closeLightbox();
+      }
+    }
+
+    function rotateLightboxImg(deg) {
+      currentRot += deg;
+      updateTransform();
+    }
+
+    function zoomLightboxImg(delta) {
+      currentScale = Math.max(0.5, Math.min(3, currentScale + delta));
+      updateTransform();
+    }
+
+    function updateTransform() {
+      const targetEl = document.getElementById('lightboxTarget') || document.getElementById('lightboxImg');
+      if (targetEl) {
+        targetEl.style.transform = `rotate(${currentRot}deg) scale(${currentScale})`;
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+
+    // 5. Traditional / Simplified Chinese Script Toggle
+    let isSimplified = false;
+    const t2sMap = {
+      '歷史': '历史', '沿革': '沿革', '數位': '数字', '特展': '特展', '風雲': '风云', '封爵': '封爵',
+      '與': '与', '圖': '图', '會': '会', '實': '实', '覽': '览', '切換': '切换', '繁體': '繁体',
+      '簡體': '简体', '乾隆': '乾隆', '剎': '刹', '週': '周', '朝': '朝', '從': '从', '殿': '殿',
+      '樞': '枢', '張': '张', '溥': '溥', '歷': '历', '經': '经', '慶': '庆', '豐': '丰',
+      '緒': '绪', '統': '统', '權': '权', '營': '营', '錫': '锡', '晉': '晋', '齋': '斋',
+      '胞': '胞', '親': '亲', '夢': '梦', '賜': '赐', '議': '议', '運': '运', '籌': '筹',
+      '變': '变', '開': '开', '啟': '启', '務': '务', '動': '动', '國': '国', '當': '当',
+      '孫': '孙', '舊': '旧', '後': '后', '園': '园', '錦': '锦', '揮': '挥', '中國': '中国',
+      '現': '现', '術': '术', '雙': '双', '傳': '传', '寵': '宠', '藝': '艺', '壇': '坛',
+      '璧': '璧', '滄': '沧', '佔': '占', '萬': '万', '筆': '笔', '紀': '纪', '檔': '档',
+      '據': '据', '釋': '释', '滿': '满', '為': '为', '學': '学', '讚': '赞', '數': '数',
+      '郡': '郡', '僅': '仅', '築': '筑', '歷代': '历代', '處': '处', '轉': '转', '磚': '砖',
+      '讀': '读', '劇': '剧', '場': '场', '橫': '横', '證': '证', '關': '关', '極': '极',
+      '肅': '肃', '勢': '势', '漸': '渐', '憂': '忧', '興': '兴', '遜': '逊', '飽': '饱',
+      '國運': '国运', '幾': '几', '這': '这', '聯': '联', '軍': '军', '師': '师', '設': '设',
+      '總': '总', '各': '各', '門': '门', '館': '馆', '領': '领', '處': '处', '長': '长',
+      '達': '达', '餘': '余', '際': '际', '鴻': '鸿', '國藩': '国藩', '駐': '驻', '華': '华',
+      '頻': '频', '體': '体', '陣': '阵', '禮': '礼', '巔': '巅', '綠': '绿', '薩': '萨',
+      '嚴': '严', '碩': '硕', '規': '规', '銀': '银', '嘉樂': '嘉乐', '蓋': '盖', '瓦': '瓦',
+      '宮': '宫', '黃': '黄', '則': '则', '寧': '宁', '壽': '寿', '絲': '丝', '樓': '楼',
+      '族': '族', '爺': '爷', '獨': '独', '間': '间', '匯': '汇', '面積': '面积', '湖': '湖',
+      '戲': '戏', '締': '缔', '搖': '摇', '籃': '篮', '輔': '辅', '聖': '圣', '續': '续',
+      '脈': '脉', '時': '时', '鍵': '键', '錄': '录', '點': '点', '擊': '击', '標': '标',
+      '籤': '签', '階': '阶', '稱': '称', '發': '发', '節': '节', '襲': '袭', '學': '学',
+      '總理': '总理', '囑': '嘱', '託': '托', '固倫': '固伦', '大興': '大兴', '奢華': '奢华',
+      '謎': '谜', '繪': '绘', '紙': '纸', '廳': '厅', '頤': '颐', '諱': '讳', '徹': '彻',
+      '寶': '宝', '絕': '绝', '殺': '杀', '鐵': '铁', '愛': '爱', '擴': '扩', '豪': '豪',
+      '駙': '驸', '榮': '荣', '雲': '云', '請': '请', '無': '无', '邊': '边', '龍': '龙',
+      '偷': '偷', '磚雕': '砖雕', '區': '区', '識': '识', '駕': '驾', '喪': '丧', '機': '机',
+      '攬': '揽', '職': '职', '問': '问', '罪': '罪', '產': '产', '樣': '样', '點綴': '点缀',
+      '圓': '圆', '瑤': '瑶', '腸': '肠', '獄': '狱', '盡': '尽', '愛新覺羅': '爱新觉罗',
+      '紅': '红', '漢': '汉', '蒙': '蒙', '藏': '藏', '種': '种', '造': '造', '鍾': '钟',
+      '若': '若', '儲': '储', '獲': '获', '念': '念', '供': '供', '薨': '薨', '戲言': '戏言',
+      '誰': '谁', '歸': '归', '嘯': '啸', '雜': '杂', '諸': '诸', '窺': '窥', '達': '达',
+      '遊': '游', '野': '野', '眾': '众', '願': '愿', '誅': '誅', '諾': '诺', '冊': '册',
+      '惠': '惠', '鄰': '邻', '臨': '临', '視': '视', '諡': '谥', '號': '号', '遞': '递',
+      '納': '纳', '賄': '贿', '賂': '赂', '革': '革', '發配': '发配', '會典': '会典', '內務': '内务',
+      '收': '收', '慶親王': '庆亲王', '儀': '仪', '純': '纯', '歲': '岁', '升': '升',
+      '鐍': '镼', '繼': '继', '載': '载', '遷': '迁', '危': '危', '陷': '陷', '燒': '烧',
+      '倉': '仓', '殘': '残', '簽': '签', '訂': '订', '條': '条', '約': '约', '毀': '毁',
+      '感': '感', '技': '技', '銜': '衔', '強': '强', '顧': '顾', '兩': '两', '密': '密',
+      '計': '计', '隨': '随', '趕': '赶', '聯': '联', '絡': '络', '兵': '兵', '逮': '逮',
+      '捕': '捕', '班': '班', '罔': '罔', '殊': '殊', '執': '执', '調': '调', '匠': '匠',
+      '門': '门', '漢白玉': '汉白玉', '靜': '静', '挹': '挹', '恆': '恒', '顯': '显',
+      '恥': '耻', '飾': '饰', '蝠': '蝠', '諧': '谐', '池': '池', '迴': '回', '廊': '廊',
+      '隻': '只', '構': '构', '攝': '摄', '湯': '汤', '濕': '湿', '識': '识', '早': '早',
+      '賣': '卖', '國寶': '国宝', '長子': '长子', '澂': '澂', '瀅': '滢', '承': '承',
+      '俗': '俗', '飽': '饱', '書畫': '书画', '會': '会', '退': '退', '對': '对', '逃': '逃',
+      '島': '岛', '連': '连', '劃': '划', '黨': '党', '籌集': '筹集', '費': '费', '銅': '铜',
+      '瓷': '瓷', '賤': '贱', '商': '商', '拍': '拍', '賣': '卖', '震': '震', '陸': '陆',
+      '韓': '韩', '幹': '干', '債': '债', '築': '筑', '銀元': '银元', '押': '押', '堂': '堂',
+      '羅': '罗', '馬': '马', '傳信': '传信', '堂兄': '堂兄', '途': '途', '隱': '隐',
+      '讀': '读', '專': '专', '拜': '拜', '訪': '访', '畔': '畔', '耀': '耀', '詳': '详',
+      '見': '见', '廳': '厅', '簽名': '签名', '絕': '绝', '譽': '誉', '最後': '最后',
+      '費用': '费用', '痛': '痛', '讓': '让', '給': '给', '先': '先', '鎮': '镇', '鎮國公': '镇国公',
+      '憲': '宪', '度': '度', '尚': '尚', '書': '书', '展': '展', '公使': '公使', '珍貴': '珍贵',
+      '償': '偿', '還': '还', '毗': '毗', '買': '买', '權': '权', '盧': '卢', '溝': '沟',
+      '橋': '桥', '淪': '沦', '聖言': '圣言', '輕': '轻', '葺': '葺', '無數': '无数',
+      '救': '救', '風': '风', '泰': '泰', '學': '学', '紅樓夢': '红楼梦', '大觀園': '大观园',
+      '散': '散', '著': '著', '榮國': '荣国', '曲': '曲', '觴': '觞', '驚': '惊', '契': '契',
+      '師': '师', '門': '门', '鎮': '镇', '貴': '贵', '禁': '禁', '現代': '现代',
+      '騰': '腾', '開放': '开放', '臨終': '临终', '院': '院', '藝': '艺', '廠': '厂',
+      '戶': '户', '擁': '拥', '擠': '挤', '元宵': '元宵', '燒': '烧', '復': '复',
+      '信': '信', '報': '报', '親筆': '亲笔', '病': '病', '務': '务', '召': '召',
+      '遺': '遗', '社': '社', '會': '会', '公布': '公布', '點': '点', '護': '护',
+      '單': '单', '搬': '搬', '奧': '奥', '運': '运', '眾': '众', '規': '规', '軸': '轴',
+      '線': '线', '軒': '轩', '客': '客', '善': '善', '舊址': '旧址', '版': '版',
+      '禍': '祸', '貝': '贝', '表': '表', '篩': '筛', '選': '选', '將': '将', '規': '规',
+      '職': '职', '註': '注', '親王': '亲王', '街': '街', '東': '东', '潭': '潭',
+      '隨': '随', '侍': '侍', '誌': '志', '武': '武', '級': '级', '定': '定', '途': '途',
+      '徑': '径', '績': '绩', '試': '试', '射': '射', '譯': '译', '藩': '藩', '離': '离',
+      '獨一無二': '独一无二', '軍': '军', '漢人': '汉人', '旗': '旗', '衛': '卫', '東華': '东华',
+      '西華': '西华', '根': '根', '飽': '饱', '審': '审', '綠蔭': '绿荫', '寶地': '宝地',
+      '野': '野', '後海': '后海', '誕': '诞', '環': '环', '繞': '绕', '岸': '岸',
+      '女': '女', '裝': '装', '訪': '访', '歐': '欧', '推': '推', '動': '动', '雙峰': '双峰',
+      '會面': '会面', '遇': '遇', '走': '走', '進': '进', '跨': '跨', '越': '越', '原點': '原点',
+      '內': '内', '豪': '豪', '傑': '杰', '門下': '门下', '石濤': '石涛', '真': '真',
+      '滬': '沪', '韓': '韩', '鼎': '鼎', '扶': '扶', '圈': '圈', '寫': '写', '躍': '跃',
+      '寬': '宽', '遠': '远', '臨摹': '临摹', '潑': '泼', '彩': '彩', '韻': '韵',
+      '悲': '悲', '課': '课', '詩': '诗', '寺': '寺', '設': '设', '匾': '匾',
+      '額': '额', '馬': '马', '剛': '刚', '濃': '浓', '界': '界', '發': '发',
+      '帶': '带', '滿洲': '满洲', '劍': '剑', '髯': '髯', '才': '才', '碰': '碰',
+      '樣': '样', '陳': '陈', '飯': '饭', '談': '谈', '論': '论', '驚為天人': '惊为天人',
+      '北平': '北平', '聽': '听', '鸝': '鹂', '鑑': '鉴', '擲': '掷', '鳶': '鸢',
+      '端': '端', '張': '张', '頁': '页', '飛': '飞', '過': '过', '思': '思',
+      '索': '索', '松': '松', '幅': '幅', '稚': '稚', '童': '童', '繪': '绘',
+      '跋': '跋', '闇': '闇', '報': '报', '刊': '刊', '風靡': '风靡', '溫': '温',
+      '潤': '润', '渾': '浑', '野': '野', '寫意': '写意', '讚': '赞', '嘆': '叹',
+      '當': '当', '予': '予', '避': '避', '單': '单', '廚': '厨', '菜': '菜',
+      '款': '款', '待': '待', '宴': '宴', '講': '讲', '開列': '开列', '席': '席',
+      '連': '连', '火': '火', '配': '配', '逐': '逐', '批': '批', '真': '真',
+      '魚': '鱼', '雞': '鸡', '豬': '猪', '腦': '脑', '醬': '酱', '蔥': '葱',
+      '鴿': '鸽', '賞': '赏', '全': '全', '螢': '萤', '幕': '幕', '鑑': '鉴',
+      '藏': '藏', '縱': '纵', '工': '工', '鳥': '鸟', '晴': '晴', '疑': '疑',
+      '翼': '翼', '枝': '枝', '守': '守', '別': '别', '識': '识', '痴': '痴',
+      '民': '民', '雄': '雄', '雌': '雌', '繪': '绘', '雙鉤': '双钩', '暈': '晕',
+      '染': '染', '鬆': '松', '幹': '干', '蒼': '苍', '勁': '劲', '態': '态',
+      '葉': '叶', '濃': '浓', '淡': '淡', '春': '春', '夕': '夕', '歸': '归',
+      '映': '映', '照': '照', '世': '世', '珍': '珍', '夾': '夹', '篇': '篇',
+      '章': '章', '附': '附', '深': '深', '感': '感', '介': '介', '紹': '绍',
+      '校': '校', '燈': '灯', '箱': '箱', '縮': '缩', '檢': '检', '類': '类',
+      '佇': '伫', '座': '座', '黃銅': '黄铜', '導': '导', '曲': '曲', '英': '英',
+      '銘': '铭', '記': '记', '傾': '倾', '緊': '紧', '鄰': '邻', '生': '生',
+      '轉折': '转折', '開': '开', '查': '查', '看': '看', '整': '整', '錄文': '录文',
+      '組': '组', '總佔地': '总占地', '進': '进', '頂': '顶', '示': '示', '芳': '芳',
+      '薈': '荟', '繡': '绣', '佈': '布', '環': '环', '觀': '观', '屬': '属',
+      '猶': '犹', '積': '积', '澱': '淀', '輪': '轮', '蘊': '蕴', '涵': '涵',
+      '實寫': '实写', '維': '维', '繫': '系', '信': '信', '仰': '仰', '祥': '祥',
+      '傳': '传', '統': '统', '教': '教', '關': '关', '鼎': '鼎', '後': '后',
+      '場': '场', '暖': '暖', '閣': '阁', '洞': '洞', '型': '型', '奉': '奉',
+      '祖': '祖', '殺': '杀', '豬': '猪', '跳': '跳', '世': '世', '娶': '娶',
+      '聖': '圣', '額': '额', '詩經': '诗经', '顯': '显', '德': '德', '木': '木',
+      '質': '质', '雕': '雕', '形': '形', '板': '板', '道': '道', '政治': '政治',
+      '源': '源', '廢': '废', '舊': '旧', '稱': '称', '次': '次', '改': '改',
+      '元': '元', '號': '号', '封': '封', '廷': '廷', '明': '明', '國庫': '国库',
+      '祿': '禄', '屢': '屡', '釀': '酿', '難': '难', '亂': '乱', '弊': '弊',
+      '智': '智', '慧': '慧', '受': '受', '律': '律', '賜': '赐', '奉': '奉',
+      '命': '命', '擅': '擅', '步': '步', '潢': '潢', '胄': '胄', '齊': '齐',
+      '催': '催', '飲': '饮', '食': '食', '過': '过', '服': '服', '器': '器',
+      '體現': '体现', '份': '份', '位': '位', '吸': '吸', '取': '取', '訓': '训',
+      '採': '采', '政': '政', '策': '策', '許': '许', '因而': '因而', '均': '均',
+      '居': '居', '中心': '中心', '特有': '特有', '複': '复', '製品': '制品',
+      '畫': '画', '順': '顺', '叔': '叔', '父': '父', '攝政': '摄政', '瀋': '沈',
+      '陽': '阳', '隨': '随', '釐': '厘', '系': '系', '親': '亲', '戚': '戚',
+      '留': '留', '或': '或', '地': '地', '諸': '诸', '百': '百', '六十': '六十',
+      '廣': '广', '成': '成', '集': '集', '促': '促', '發展': '发展', '詳': '详',
+      '列': '列', '等級': '等级', '將軍': '将军', '則': '则', '為': '为', '防': '防',
+      '止': '止', '口': '口', '繁': '繁', '衍': '衍', '致': '致', '泛': '泛',
+      '濫': '滥', '規': '规', '除': '除', '開國': '开国', '八': '八', '大': '大',
+      '功': '功', '及': '及', '中興': '中兴', '四': '四', '享': '享', '代': '代',
+      '原': '原', '外': '外', '其': '其', '子': '子', '每': '每', '必': '必',
+      '須': '须', '降': '降', '低': '低', '一': '一', '等': '等', '也': '也',
+      '正': '正', '是': '是', '何': '何', '第': '第', '二': '二', '主': '主',
+      '人': '人', '後': '后', '至': '至', '公': '公', '在': '在', '三': '三',
+      '十': '十', '年': '年', '交': '交', '出': '出', '制': '制', '因': '因',
+      '鎮國': '镇国', '輔國': '辅国', '奉國': '奉国', '奉恩': '奉恩', '揭示': '揭示',
+      '空間': '空间', '演': '演', '變': '变', '軍': '军', '事': '事', '西': '西',
+      '夾': '夹', '勢': '势', '隨': '随', '著': '着', '飽': '饱', '和': '和',
+      '江': '江', '南': '南', '林': '林', '美': '美', '起': '起', '擁': '拥',
+      '有': '有', '活': '活', '水': '水', '泊': '泊', '片': '片', '成': '成',
+      '爭': '争', '相': '相', '建': '建', '第': '第', '晚': '晚', '朝': '朝',
+      '三': '三', '坐': '坐', '落': '落', '於': '于', '使': '使', '片': '片',
+      '五': '五', '帝': '帝', '心': '心', '臟': '脏', '幅': '幅', '結構': '结构',
+      '水系': '水系', '積水潭': '积水潭', '密': '密', '布': '布', '幀': '帧',
+      '張力': '张力', '黑白': '黑白', '老': '老', '照': '照', '格': '格', '世': '世',
+      '初': '初', '場': '场', '跨': '跨', '文': '文', '化': '化', '畫面': '画面',
+      '右': '右', '側': '侧', '頭': '头', '戴': '戴', '翅': '翅', '身': '身',
+      '團': '团', '花': '花', '緞': '缎', '袍': '袍', '盆': '盆', '底': '底',
+      '鞋': '鞋', '婦': '妇', '葉赫那拉': '叶赫那拉', '姪': '侄', '皇': '皇',
+      '后': '后', '妹': '妹', '左': '左', '西洋': '西洋', '羽': '羽毛', '帽': '帽',
+      '穿': '穿', '式': '式', '套': '套', '裙': '裙', '美': '美', '立': '立',
+      '著': '着', '坎': '坎', '肩': '肩', '幼': '幼', '生': '生', '折': '折',
+      '射': '射', '庚': '庚', '子': '子', '深': '深', '鎖': '锁', '高': '高',
+      '牆': '墙', '始': '始', '打': '打', '開': '开', '門': '门', '接': '接',
+      '外': '外', '夫': '夫', '而': '而', '本': '本', '率': '率', '領': '领',
+      '大': '大', '臣': '臣', '洋': '洋', '考': '考', '察': '察', '新': '新',
+      '改': '改', '革': '革', '步': '步', '入': '入', '迎': '迎', '面': '面',
+      '矗': '矗', '便': '便', '高': '高', '米': '米', '巨': '巨', '孤': '孤',
+      '賞': '赏', '峰': '峰', '古': '古', '典': '典', '美': '美', '中': '中',
+      '它': '它', '扮': '扮', '演': '演', '角': '角', '色': '色', '進': '进',
+      '不': '不', '致': '致', '內': '内', '景': '景', '覽': '览', '遺': '遗',
+      '繞': '绕', '石': '石', '行': '行', '豁': '豁', '然': '然', '朗': '朗',
+      '碧': '碧', '上': '上', '刻': '刻', '字': '字', '說': '说', '北': '北',
+      '宋': '宋', '司': '司', '馬': '马', '光': '光', '記': '记', '故': '故',
+      '秋': '秋', '日': '日', '陽': '阳', '頂': '顶', '天': '天', '透': '透',
+      '下': '下', '駐': '驻', '足': '足', '望': '望', '韻': '韵', '盎': '盎',
+      '材': '材', '與': '与', '高': '高', '度': '度', '通': '通', '約': '约',
+      '承': '承', '疊': '叠', '基': '基', '造': '造', '功': '功', '能': '能',
+      '對': '对', '兼': '兼', '具': '具', '障': '障', '欲': '欲', '揚': '扬',
+      '抑': '抑', '框': '框', '風': '风', '重': '重', '奇': '奇', '四': '四',
+      '完': '完', '全': '全', '合': '合', '米': '米', '芾': '芾', '品': '品',
+      '準': '准', '瘦': '瘦', '壁': '壁', '聳': '耸', '皺': '皱', '紋': '纹',
+      '理': '理', '漏': '漏', '孔': '孔', '穴': '穴', '穿': '穿', '實': '实',
+      '拍': '拍', '堪': '堪', '神': '神', '來': '来', '鏡': '镜', '精': '精',
+      '捕': '捕', '捉': '捉', '到': '到', '午': '午', '驕': '骄', '恰': '恰',
+      '方': '方', '中': '中', '出': '出', '作': '作', '輪': '轮', '耀': '耀',
+      '眼': '眼', '金': '金', '星': '星', '芒': '芒', '肌': '肌', '宛': '宛',
+      '如': '如', '仙': '仙', '山': '山', '瓊': '琼', '古': '古', '人': '人',
+      '令': '令', '遠': '远', '百': '百', '前': '前', '乃': '乃', '漫': '漫',
+      '賦': '赋', '都': '都', '曾': '曾', '同': '同', '束': '束', '京': '京',
+      '玄': '玄', '從': '从', '不': '不', '同': '同', '角': '角', '觀': '观',
+      '各': '各', '有': '有', '趣': '趣', '自': '自', '向': '向', '看': '看',
+      '尾': '尾', '昂': '昂', '首': '首', '躍': '跃', '鯉': '鲤', '又': '又',
+      '似': '似', '拔': '拔', '地': '地', '而': '而', '起': '起', '靈': '灵',
+      '芝': '芝', '回': '回', '體': '体', '微': '微', '形': '形', '懷': '怀',
+      '抱': '抱', '子': '子', '慈': '慈', '母': '母', '送': '送', '音': '音',
+      '貫': '贯', '晴': '晴', '過': '过', '慧': '慧', '鴻': '鸿', '當': '当',
+      '吉': '吉', '兆': '兆', '視': '视', '可': '可', '青': '青', '槐': '槐',
+      '銀': '银', '杏': '杏', '黃': '黄', '皆': '皆', '成': '成', '痴': '痴',
+      '晚': '晚', '摩': '摩', '耶': '耶', '精': '精', '舍': '舍', '作': '作',
+      '常': '常', '見': '见', '此': '此', '削': '削', '崛': '崛', '周': '周',
+      '遭': '遭', '假': '假', '正': '正', '是': '是', '二': '二', '在': '在',
+      '高': '高', '士': '士', '時': '时', '最': '最', '鮮': '鲜', '活': '活',
+      '粉': '粉', '本': '本', '淵': '渊', '源': '源', '屢': '屡', '造': '造',
+      '冊': '册', '竹': '竹', '蘭': '兰', '其': '其', '下': '下', '硬': '硬',
+      '竅': '窍', '玲': '珑', '造型': '造型', '髓': '髓', '青': '青', '底': '底',
+      '綱': '纲', '置': '置', '千': '千', '繪': '绘', '史': '史', '宏': '宏',
+      '標': '标', '析': '析', '禪': '禅', '室': '室', '隨': '随', '宗': '宗',
+      '喻': '喻', '尊': '尊', '維': '维', '墨': '墨', '渲': '渲', '意': '意',
+      '重': '重', '性': '性', '抒': '抒', '李': '李', '思': '思', '訓': '训',
+      '格': '格', '法': '法', '功': '功', '力': '力', '琢': '琢', '由': '由',
+      '構': '构', '建': '建', '審': '审', '系': '系', '沿': '沿', '評': '评',
+      '形': '形', '多': '多', '標': '标', '杆': '杆', '並': '并', '末': '末',
+      '物': '物', '域': '域', '浙': '浙', '洪': '洪', '綬': '绶', '山': '山',
+      '東': '东', '崔': '崔', '忠': '忠', '風': '风', '清': '清', '姜': '姜',
+      '紹': '绍', '無': '无', '聲': '声', '朱': '朱', '彝': '彝', '曝': '曝',
+      '亭': '亭', '書': '书', '華': '华', '天': '天', '萬': '万', '鍾': '钟',
+      '共': '共', '執': '执', '牛': '牛', '耳': '耳', '見': '见', '傳': '传',
+      '謀': '谋', '垔': '垔', '會': '会', '要': '要', '編': '编', '亦': '亦',
+      '譽': '誉', '近': '近', '除': '除', '了': '了', '富': '富', '有': '有',
+      '名': '名', '以': '以', '外': '外', '尚': '尚', '吳': '吴', '昌': '昌',
+      '白': '白', '湖': '湖', '帆': '帆', '倩': '倩', '局': '局', '根': '根',
+      '分': '分', '野': '野', '鄉': '乡', '川': '川', '厚': '厚', '自': '自',
+      '塑': '塑', '不': '不', '氣': '气', '質': '质', '差': '差', '異': '异',
+      '家': '家', '宮': '宫', '廷': '廷', '主': '主', '逸': '逸', '貴': '贵',
+      '想': '想', '投': '投', '指': '指', '核': '核', '在': '在', '派': '派',
+      '致': '致', '追': '追', '求': '求', '平': '平', '淡': '淡', '真': '真',
+      '講': '讲', '度': '度', '完': '完', '籍': '籍', '貫': '贯', '脈': '脉',
+      '絡': '络', '學': '学', '對': '对', '偶': '偶', '疇': '畴', '宣': '宣',
+      '折': '折', '角': '角', '頁': '页', '精': '精', '闢': '辟', '概': '概',
+      '括': '括', '百': '百', '演': '演', '進': '进', '部': '部', '曲': '曲',
+      '明': '明', '徐': '徐', '渭': '渭', '大': '大', '山': '山', '人': '人',
+      '手': '手', '遍': '遍', '臨': '临', '諸': '诸', '上': '上', '溯': '溯',
+      '跡': '迹', '取': '取', '董': '董', '巨': '巨', '唐': '唐', '范': '范',
+      '摹': '摹', '仿': '仿', '深': '深', '中': '中', '年': '年', '習': '习',
+      '敦': '敦', '煌': '煌', '壁': '壁', '對': '对', '術': '术', '址': '址',
+      '早': '早', '期': '期', '做': '做', '再': '再', '和': '和', '新': '新',
+      '激': '激', '活': '活', '其': '其', '以': '以', '入': '入', '條': '条',
+      '兼': '兼', '碑': '碑', '之': '之', '雄': '雄', '與': '与', '帖': '帖',
+      '飄': '飘', '勾': '勾', '勒': '勒', '皴': '皴', '擦': '擦', '頓': '顿',
+      '挫': '挫', '乾': '干', '濕': '湿', '層': '层', '次': '次', '通': '通',
+      '章': '章', '開': '开', '合': '合', '造': '造', '境': '境', '奇': '奇',
+      '闊': '阔', '骨': '骨', '創': '创', '賦': '赋', '色': '色', '氤': '氤',
+      '氳': '氲', '融': '融', '虛': '虚', '生': '生', '突': '突', '破': '破',
+      '既': '既', '範': '范', '拓': '拓', '展': '展', '本': '本', '表': '表',
+      '界': '界', '花': '花', '熙': '熙', '筌': '筌', '長': '长', '人': '人',
+      '寅': '寅', '能': '能', '出': '出', '堅': '坚', '守': '守', '正': '正',
+      '古': '古', '今': '今', '健': '健', '瑰': '瑰', '麗': '丽', '個': '个',
+      '貌': '貌', '軌': '轨', '何': '何', '十': '十', '便': '便', '抗': '抗',
+      '禮': '礼', '揭': '揭', '曉': '晓', '答': '答', '案': '案', '日': '日',
+      '留': '留', '歸': '归', '先': '先', '後': '后', '拜': '拜', '入': '入',
+      '大': '大', '農': '农', '梅': '梅', '庵': '庵', '法': '法', '即': '即',
+      '家': '家', '時': '时', '定': '定', '名': '名', '由': '由', '改': '改',
+      '爰': '爰', '苦': '苦', '練': '练', '假': '假', '使': '使', '他': '他',
+      '兩': '两', '聲': '声', '盛': '盛', '隨': '随', '秋': '秋', '英': '英',
+      '雅': '雅', '中': '中', '嶄': '崭', '露': '露', '鋒': '锋', '芒': '芒',
+      '首': '首', '個': '个', '品': '品', '售': '售', '罄': '罄', '參': '参',
+      '全': '全', '國': '国', '美': '美', '術': '术', '覽': '览', '會': '会',
+      '穩': '稳', '固': '固', '上': '上', '新': '新', '銳': '锐', '地': '地',
+      '位': '位', '程': '程', '兄': '兄', '善': '善', '孖': '孖', '為': '为',
+      '引': '引', '路': '路', '祖': '祖', '君': '君', '等': '等', '資': '资',
+      '藏': '藏', '相': '相', '不': '不', '僅': '仅', '提': '提', '供': '供',
+      '安': '安', '居': '居', '所': '所', '觀': '观', '摩': '摩', '源': '源',
+      '推': '推', '廣': '广', '助': '助', '力': '力', '更': '更', '帶': '带',
+      '深': '深', '北': '北', '京': '京', '海': '海', '層': '层', '依': '依',
+      '託': '托', '這': '这', '優': '优', '積': '积', '投': '投', '身': '身',
+      '各': '各', '社': '社', '交': '交', '望': '望', '人': '人', '拓': '拓',
+      '寬': '宽', '早': '早', '道': '道', '精': '精', '研': '研', '同': '同',
+      '數': '数', '登': '登', '直': '直', '真': '真', '水': '水', '汲': '汲',
+      '靈': '灵', '豐': '丰', '富': '富', '造': '造', '過': '过', '左': '左',
+      '右': '右', '旋': '旋', '放': '放', '關': '关', '閉': '闭', '預': '预',
+      '專題': '专题', '涵': '涵', '精編': '精编'
+    };
+
+    const s2tMap = {};
+    for (const [t, s] of Object.entries(t2sMap)) {
+      if (t !== s) s2tMap[s] = t;
+    }
+
+    function walkTextNodes(node, converter) {
+      if (node.nodeType === Node.TEXT_NODE) {
+        node.nodeValue = converter(node.nodeValue);
+      } else {
+        for (let child of node.childNodes) {
+          if (child.tagName !== 'SCRIPT' && child.tagName !== 'STYLE') {
+            walkTextNodes(child, converter);
+          }
+        }
+      }
+    }
+
+    function toggleCharScript() {
+      isSimplified = !isSimplified;
+      const map = isSimplified ? t2sMap : s2tMap;
+      const keys = Object.keys(map).sort((a, b) => b.length - a.length);
+      const regex = new RegExp(keys.join('|'), 'g');
+      walkTextNodes(document.body, (txt) => txt.replace(regex, (m) => map[m] || m));
+      document.getElementById('langToggleBtn').textContent = isSimplified ? '切换：简体 / 繁体' : '切換：繁體 / 簡體';
+    }
+  </script>
+</body>
+</html>
